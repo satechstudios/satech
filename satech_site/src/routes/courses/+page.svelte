@@ -20,9 +20,7 @@
 
     <!-- Expanded selected course -->
     {#if selectedCourse}
-        <div
-            class="w-full bg-blue-800 rounded-lg m-5 p-5 text-white flex flex-col md:flex-row gap-5 transition-all duration-[1000ms] ease-in-out transform scale-100 animate-slide-in-top"
-        >
+        <div class="bg-blue-800 rounded-lg m-5 p-5 text-white flex flex-col md:flex-row gap-5 transition-all duration-[1000ms] ease-in-out transform animate-slide-in-top">
             <img src={selectedCourse.image} alt={selectedCourse.title} class="rounded-lg w-full md:w-1/3">
             <div class="flex flex-col justify-center">
                 <h2 class="text-4xl font-bold mb-3">{selectedCourse.title}</h2>
