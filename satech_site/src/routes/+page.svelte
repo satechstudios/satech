@@ -41,29 +41,9 @@
       <p class="md:text-xl text-md self-center sm:w-3/6 text-center">
         We the talented and passionate team will work hard to bring your wildest dreams into reality with the help of AR/VR
       </p>
-      <button
-        type="button"
-        class="text-center w-52 rounded-2xl h-14 relative text-black text-xl font-semibold group self-center my-5 z-10"
-      >
-        <div
-          class="bg-blue-900 rounded-xl h-12 w-1/4 flex items-center justify-end absolute left-1 top-[4px] group-hover:w-[240px] duration-500"
-        >
-          <svg
-            viewBox="0 0 256 256"
-            fill="#ffffff"
-            height="32"
-            width="32"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"
-            ></path>
-          </svg>
-        </div>
-        <p class="translate-x-2 z-10 text-white h-12 rounded-xl bg-blue-900 p-2">
-          Our Services
-        </p>
-      </button>
+      <a href="#services" class="self-center">
+          <button class="w-40 bg-blue-800 text-xl hover:bg-blue-600 hover:-translate-y-1 hover:scale-110 p-3 rounded-xl m-5">Our Services</button>
+      </a>
     </div>
   </div>
   
