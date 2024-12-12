@@ -4,26 +4,30 @@
         {
             image: "https://via.placeholder.com/150",
             alt: "placeholder",
-            title: "Title 1",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos."
+            title: "Our Projects",
+            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+            href: "/projects"
         },
         {
             image: "https://via.placeholder.com/150",
             alt: "placeholder",
-            title: "Title 2",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos."
+            title: "Courses",
+            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+            href: "/courses"
         },
         {
             image: "https://via.placeholder.com/150",
             alt: "placeholder",
             title: "Title 3",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos."
+            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+            href: "/projects"
         },
         {
             image: "https://via.placeholder.com/150",
             alt: "placeholder",
             title: "Title 4",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos."
+            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+            href: "/projects"
         }
     ];
 </script>
@@ -69,7 +73,7 @@
     </div>
     <div class="max-w-screen-xl mx-auto sm:p-5 self-center">
         <p class="text-center md:text-6xl text-3xl uppercase font-bold p-5 m-5 text-blue-400">About Us</p>
-        <p class="text-center md:text-xl text-md p-5 m-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, libero. Amet, soluta ea doloremque est corporis reprehenderit dicta natus numquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos explicabo unde similique itaque odit cupiditate aspernatur, non qui ad aut! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, vitae!</p>
+        <p class="sm:text-center md:text-xl text-md sm:p-5 sm:m-5 my-3 text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, libero. Amet, soluta ea doloremque est corporis reprehenderit dicta natus numquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos explicabo unde similique itaque odit cupiditate aspernatur, non qui ad aut! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, vitae!</p>
     </div>
 </div>
 
@@ -77,11 +81,11 @@
     <p class="text-6xl font-bold self-center m-5 p-5">Services</p>
     <div class="flex flex-col md:flex-row justify-center">
         {#each items as item}
-            <div class="bg-white sm:w-80 w-60 flex flex-col m-5 p-5 rounded-md self-center">
+            <div class="bg-white sm:w-80 w-60 flex flex-col m-5 p-5 rounded-md self-center hover:-translate-y-5 group">
                 <img src={item.image} alt={item.alt} class="w-3/4 self-center"/>
                 <p class="text-2xl font-bold text-blue-500">{item.title}</p>
                 <p class="text-black text-lg">{item.description}</p>
-                <button class="bg-blue-500 text-white w-1/2 self-center rounded-md p-2 mt-5">Learn More</button>
+                <a href="{item.href}" class="self-center w-1/2"><button class="bg-blue-500 text-white rounded-md p-2 mt-5 group-hover:animate-shake-lr">Learn More</button></a>
             </div>
         {/each}
     </div>
@@ -89,27 +93,27 @@
 
 <section class="bg-[#111827] p-5 flex lg:flex-row-reverse flex-col-reverse" id="contact">
     <div class="flex justify-center w-full">
-        <img src="speaking-phn.png" alt="a guy speaking in phone" class="lg:w-full w-3/4 md:min-w-96 max-w-[1300px] min-w-60 self-center">
+        <img src="speaking-phn.png" alt="a guy speaking in phone" class="lg:w-full w-3/4 md:min-w-96 max-w-[1300px] min-w-60 hidden sm:block self-center">
     </div>
     <div class="w-full">
         <div class="flex flex-col">
             <p class="xl:text-6xl text-3xl font-bold uppercase self-center m-5">Contact Us</p>
-            <div class="m-5 p-5 self-center">
+            <div class="m-5 sm:p-5 self-center">
                 <table class="w-full">
                     <tbody>
                         <tr>
-                            <td class="text-right pr-5">
+                            <td class="text-right sm:p-5 m-2 sm:m-0">
                                 <i class="ph-light ph-whatsapp-logo xl:text-6xl text-3xl"></i>
                             </td>
-                            <td class="text-left p-5">
+                            <td class="text-left sm:p-5 m-2 sm:m-0">
                                 <p class="xl:text-5xl text-xl">+91 9876543210</p>
                             </td>
                         </tr>
                         <tr>
-                            <td class="text-right p-5">
+                            <td class="text-right sm:p-5 m-2 sm:m-0">
                                 <i class="ph-light ph-envelope-open xl:text-6xl text-3xl"></i>
                             </td>
-                            <td class="text-left p-5">
+                            <td class="text-left sm:p-5 m-2 sm:m-0">
                                 <p class="xl:text-5xl text-xl">satechstudios@gmail.com</p>
                             </td>
                         </tr>
