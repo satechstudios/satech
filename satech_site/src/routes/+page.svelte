@@ -32,8 +32,8 @@
     ];
 </script>
 
-<div id="top-section" class="text-white relative">
-    <div class="absolute inset-0 bg-black opacity-85 z-0"></div> <!-- Background with opacity -->
+<div id="top-section" class="text-white relative" style="background-image: url('main_img.png');">
+    <div class="absolute inset-0 bg-black opacity-85 z-0"></div>
     <div class="relative z-10 h-full w-full flex flex-col justify-center">
       <p class="md:text-6xl text-3xl font-bold uppercase self-center md:w-4/5 text-center my-5 py-5">
         From Vision to Reality, Beyond Imagination.
