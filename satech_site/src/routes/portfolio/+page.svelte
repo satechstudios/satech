@@ -1,32 +1,35 @@
 <script>
-    const images = [
-        "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg",
-        "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg",
-        "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg",
-        "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg",
-        "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg",
-        "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg",
-        "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg",
-        "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg",
-        "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg",
-        "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg",
-        "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg",
-        "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg"
+    const data = [
+        { src: "/projects/prj1.png", description: "Project 1 Description" },
+        { src: "/projects/prj2.png" },
+        { src: "/projects/prj3.png" },
+        { src: "/projects/prj4.png" },
+        { src: "/projects/prj5.png" },
+        { src: "/projects/prj6.png" },
+        { src: "/projects/prj7.png" },
+        { src: "/projects/prj8.png" },
+        { src: "/projects/prj9.png" },
+        { src: "/projects/prj10.png" }
     ];
 </script>
 
 <div class="md:m-5 md:p-5 mt-5">
     <p class="md:text-6xl text-3xl text-center uppercase font-bold">Portfolio</p>
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 m-5 p-5">
-        {#each Array(Math.ceil(images.length / 3)).fill() as _, i}
-            <div class="grid gap-4">
-                {#each images.slice(i * 3, i * 3 + 3) as image}
-                    <div class="group">
-                        <img class="h-auto max-w-full rounded-lg" src={image} alt="">
-                        <p class="group-hover:block hidden group-hover:animate-scale-in-top text-center p-3">Text description</p>
-                    </div>
-                {/each}
-            </div>
-        {/each}
+    <hr class="border-2 border-blue-500 my-5"/>
+    <div class="flex flex-col justify-center">
+        <h1 class="text-4xl font-bold text-center p-5">Ui/Ux and Graphic designs</h1>
+        <div class="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-4 m-5 p-5">
+            {#each data as item}
+                <div class="relative mb-4 group">
+                    <img class="w-full rounded-lg" src={item.src} alt="">
+                    {#if item.description}
+                        <!-- Description overlay -->
+                        <p class="absolute bottom-0 left-0 w-full bg-black/60 text-white text-center p-2 opacity-0 group-hover:opacity-100 transition-opacity">
+                            {item.description}
+                        </p>
+                    {/if}
+                </div>
+            {/each}
+        </div>
     </div>
 </div>
