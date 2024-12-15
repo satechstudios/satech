@@ -35,7 +35,7 @@
   
 <div class="bg-[#111827] flex lg:flex-row flex-col-reverse p-5" id="about">
     <div class="flex w-full justify-center">
-        <img src="women-working.png" alt="woman working" class="lg:w-full w-3/4 md:min-w-96 sm:min-w-60 w-40 self-center">
+        <img src="women-working.png" alt="woman working" class="lg:w-full md:min-w-96 sm:min-w-60 w-40 self-center">
     </div>
     <div class="max-w-screen-xl mx-auto sm:p-5 self-center">
         <p class="text-center md:text-6xl text-3xl uppercase font-bold p-5 m-5 text-blue-400">About Us</p>
@@ -72,7 +72,7 @@
                                 <i class="ph-light ph-whatsapp-logo xl:text-6xl text-3xl"></i>
                             </td>
                             <td class="text-left sm:p-5 m-2 sm:m-0">
-                                <p class="xl:text-5xl sm:text-xl text-sm">+91 9876543210</p>
+                                <p class="xl:text-5xl sm:text-xl text-sm">+91 7708536320</p>
                             </td>
                         </tr>
                         <tr>
