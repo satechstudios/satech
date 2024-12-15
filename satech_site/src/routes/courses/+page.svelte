@@ -36,7 +36,7 @@
                 </ul>
                 <button
                     on:click={() => toggleModal(selectedCourse)}
-                    class="self-start px-4 py-2 bg-blue-700 rounded-lg hover:bg-blue-800"
+                    class="self-start px-4 py-2 bg-blue-700 rounded-lg hover:bg-blue-800 hover:border-white border-2 border-transparent"
                 >
                     Close
                 </button>
