@@ -20,5 +20,8 @@
 	},
 	"dependencies": {
 		"@beyonk/svelte-scrollspy": "^2.1.2"
-	}
+	},
+	"engines": {
+    "node": "20.x"
+  }
 }
