@@ -27,7 +27,7 @@
       <p class="md:text-xl text-md self-center sm:w-3/6 text-center">
         We the talented and passionate team will work hard to bring your wildest dreams into reality with the help of AR/VR
       </p>
-      <a href="#services" class="self-center">
+      <a href="/contact" class="self-center">
           <button class="w-40 bg-blue-800 text-xl hover:bg-blue-600 hover:-translate-y-1 hover:scale-110 p-3 rounded-xl m-5">Get Started</button>
       </a>
     </div>
