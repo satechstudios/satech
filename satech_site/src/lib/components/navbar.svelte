@@ -9,11 +9,8 @@
       navItems = [
         { name: 'Home', href: '/#top-section' },
         { name: 'About', href: '/#about' },
-        { name: 'Services', dropdown: true, items: [
-            { name: 'Projects', href: '/projects' },
-            { name: 'Courses', href: '/courses' }
-          ] 
-        },
+        { name: 'Projects', href: '/projects' },
+        { name: 'Courses', href: '/courses' },
         { name: 'Contact', href: '/#contact' }
       ];
     } else if ($page.url.pathname === '/projects') {
