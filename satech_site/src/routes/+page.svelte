@@ -2,15 +2,15 @@
     import "./styles.css"
     const items = [
         {
-            image: "https://via.placeholder.com/150",
-            alt: "placeholder",
+            image: "/portfolio.jpg",
+            alt: "Portfolio image",
             title: "Portfolio",
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
             href: "/portfolio"
         },
         {
-            image: "https://via.placeholder.com/150",
-            alt: "placeholder",
+            image: "/course.png",
+            alt: "Course image",
             title: "Courses",
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
             href: "/courses"
@@ -47,11 +47,13 @@
     <p class="sm:text-6xl text-3xl font-bold self-center m-5 p-5">Services</p>
     <div class="flex flex-col md:flex-row justify-center">
         {#each items as item}
-            <div class="bg-white sm:w-80 w-54 flex flex-col sm:m-5 m-2 p-2 sm:p-5 rounded-md self-center hover:-translate-y-5 group">
-                <img src={item.image} alt={item.alt} class="w-3/4 self-center"/>
-                <p class="text-2xl font-bold text-blue-500">{item.title}</p>
-                <p class="text-black text-lg">{item.description}</p>
-                <a href="{item.href}" class="self-center w-1/2"><button class="bg-blue-500 text-white rounded-md p-2 mt-5 group-hover:animate-shake-lr">Learn More</button></a>
+            <div class="bg-white sm:w-80 w-54 flex flex-col sm:m-5 m-3 rounded-md self-center hover:-translate-y-5 group">
+                <img src={item.image} alt={item.alt} class="rounded-t-md"/>
+                <div class="p-5">
+                    <p class="text-2xl font-bold text-blue-500">{item.title}</p>
+                    <p class="text-black text-lg">{item.description}</p>
+                    <a href="{item.href}" class="self-center w-1/2"><button class="bg-blue-500 text-white rounded-md p-2 mt-5 group-hover:animate-shake-lr">Learn More</button></a>
+                </div>
             </div>
         {/each}
     </div>
