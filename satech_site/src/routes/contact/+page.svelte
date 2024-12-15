@@ -6,7 +6,7 @@
         <a href="https://www.x.com" aria-label="X" class="rounded-full p-2 bg-slate-200 hover:text-white text-black hover:bg-black m-5 block"><i class="ph-fill ph-x-logo text-3xl self-center"></i></a>
         <a href="https://www.facebook.com/share/aXFzouEqmaL6oif4/" aria-label="Facebook" class="rounded-full p-2 bg-slate-200 hover:text-white text-black hover:bg-black m-5 block"><i class="ph-fill ph-facebook-logo text-3xl self-center"></i></a>
         <a href="https://www.instagram.com/satechstudios" aria-label="Instagram" class="rounded-full p-2 bg-slate-200 hover:text-white text-black hover:bg-black m-5 block"><i class="ph-fill ph-instagram-logo text-3xl self-center"></i></a>
-        <a href="https://www.discord.com" aria-label="Discord" class="rounded-full p-2 bg-slate-200 hover:text-white text-black hover:bg-black m-5 block"><i class="ph-fill ph-discord-logo text-3xl self-center"></i></a>
+        <a href="https://discord.gg/4CAmk9Rh" aria-label="Discord" class="rounded-full p-2 bg-slate-200 hover:text-white text-black hover:bg-black m-5 block"><i class="ph-fill ph-discord-logo text-3xl self-center"></i></a>
         <a href="https://www.linkedin.com/satechstudios" aria-label="LinkedIn" class="rounded-full p-2 bg-slate-200 hover:text-white text-black hover:bg-black m-5 block"><i class="ph-fill ph-linkedin-logo text-3xl self-center"></i></a>
         <a href="https://youtube.com/@satechstudios" aria-label="YouTube" class="rounded-full p-2 bg-slate-200 hover:text-white text-black hover:bg-black m-5 block"><i class="ph-fill ph-youtube-logo text-3xl self-center"></i></a>
     </div>

@@ -35,7 +35,7 @@
   
 <div class="bg-[#111827] flex lg:flex-row flex-col-reverse p-5" id="about">
     <div class="flex w-full justify-center">
-        <img src="women-working.png" alt="woman working" class="lg:w-full w-3/4 md:min-w-96 min-w-60 self-center">
+        <img src="women-working.png" alt="woman working" class="lg:w-full w-3/4 md:min-w-96 sm:min-w-60 w-40 self-center">
     </div>
     <div class="max-w-screen-xl mx-auto sm:p-5 self-center">
         <p class="text-center md:text-6xl text-3xl uppercase font-bold p-5 m-5 text-blue-400">About Us</p>
@@ -44,10 +44,10 @@
 </div>
 
 <section class="flex flex-col" id="services">
-    <p class="text-6xl font-bold self-center m-5 p-5">Services</p>
+    <p class="sm:text-6xl text-3xl font-bold self-center m-5 p-5">Services</p>
     <div class="flex flex-col md:flex-row justify-center">
         {#each items as item}
-            <div class="bg-white sm:w-80 w-60 flex flex-col m-5 p-5 rounded-md self-center hover:-translate-y-5 group">
+            <div class="bg-white sm:w-80 w-54 flex flex-col sm:m-5 m-2 p-2 sm:p-5 rounded-md self-center hover:-translate-y-5 group">
                 <img src={item.image} alt={item.alt} class="w-3/4 self-center"/>
                 <p class="text-2xl font-bold text-blue-500">{item.title}</p>
                 <p class="text-black text-lg">{item.description}</p>
@@ -72,7 +72,7 @@
                                 <i class="ph-light ph-whatsapp-logo xl:text-6xl text-3xl"></i>
                             </td>
                             <td class="text-left sm:p-5 m-2 sm:m-0">
-                                <p class="xl:text-5xl text-xl">+91 9876543210</p>
+                                <p class="xl:text-5xl sm:text-xl text-sm">+91 9876543210</p>
                             </td>
                         </tr>
                         <tr>
@@ -80,7 +80,7 @@
                                 <i class="ph-light ph-envelope-open xl:text-6xl text-3xl"></i>
                             </td>
                             <td class="text-left sm:p-5 m-2 sm:m-0">
-                                <p class="xl:text-5xl text-xl">satechstudios@gmail.com</p>
+                                <p class="xl:text-5xl sm:text-xl text-sm">satechstudios@gmail.com</p>
                             </td>
                         </tr>
                     </tbody>
