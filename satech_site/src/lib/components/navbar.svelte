@@ -7,7 +7,7 @@
         { name: 'Portfolio', href: '/portfolio' },
         { name: 'Courses', href: '/courses' },
         { name:'Blog', href:'/blog'},
-        { name: 'Contact', href: '/#contact' }
+        { name: 'Contact', href: '/contact' }
       ];
 
   // Update navigation items based on the current page
@@ -19,7 +19,7 @@
         { name: 'Portfolio', href: '/portfolio' },
         { name: 'Courses', href: '/courses' },
         { name:'Blog', href:'/blog'},
-        { name: 'Contact', href: '/#contact' }
+        { name: 'Contact', href: '/contact' }
       ];
     } else if ($page.url.pathname === '/portfolio') {
       navItems = [
@@ -41,6 +41,13 @@
         { name: 'Portfolio', href: '/portfolio' },
         { name: 'Courses', href: '/courses' },
         { name: 'Contact', href: '/contact' }
+      ];
+    } else if($page.url.pathname === '/contact'){
+      navItems = [
+        { name: 'Home', href: '/' },
+        { name: 'Portfolio', href: '/portfolio' },
+        { name: 'Courses', href: '/courses' },
+        { name:'Blog', href:'/blog'}
       ];
     }
   }
