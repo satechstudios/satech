@@ -49,7 +49,7 @@
                     >
                         <img src={course.image} alt={course.title} class="rounded-t-lg">
                         <div class="m-5">
-                            <p class="text-3xl font-medium my-2">{course.title} Details</p>
+                            <p class="text-3xl font-medium my-2">{course.title}</p>
                             <p class="text-lg">{course.description}</p>
                         </div>
                     </div>
