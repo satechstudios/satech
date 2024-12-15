@@ -11,17 +11,27 @@
         { name: 'About', href: '/#about' },
         { name: 'Projects', href: '/projects' },
         { name: 'Courses', href: '/courses' },
+        { name:'Blog', href:'/blog'},
         { name: 'Contact', href: '/#contact' }
       ];
     } else if ($page.url.pathname === '/projects') {
       navItems = [
         { name: 'Home', href: '/' },
         { name: 'Courses', href: '/courses' },
+        { name: 'Contact', href: '/contact' }
       ];
     } else if ($page.url.pathname === '/courses') {
       navItems = [
         { name: 'Home', href: '/' },
-        { name: 'Projects', href: '/projects' }
+        { name: 'Projects', href: '/projects' },
+        { name: 'Contact', href: '/contact' }
+      ];
+    } else if($page.url.pathname === '/blog'){
+      navItems = [
+        { name: 'Home', href: '/' },
+        { name: 'Projects', href: '/projects' },
+        { name: 'Courses', href: '/courses' },
+        { name: 'Contact', href: '/contact' }
       ];
     }
   }
