@@ -30,6 +30,10 @@
            class="w-12 h-12 flex items-center justify-center rounded-full bg-slate-200 hover:text-white text-black hover:bg-black m-5">
             <i class="ph-fill ph-youtube-logo text-2xl"></i>
         </a>
+        <a href="https://www.behance.net/satechstudios" aria-label="Behance" 
+           class="w-12 h-12 flex items-center justify-center rounded-full bg-slate-200 hover:text-white text-black hover:bg-black m-5">
+            <i class="ph-fill ph-behance-logo text-2xl"></i>
+        </a>
     </div>
   </div>
 </div>

@@ -85,6 +85,11 @@
                         </tr>
                     </tbody>
                 </table>
+                <div class="flex justify-center w-full">
+                    <a href="/contact" class="relative inline-block px-5 py-3 rounded-xl text-base font-bold text-white border-4 border-[rgb(252,70,100)] cursor-pointer overflow-hidden group z-10">Contact Us
+                        <span class="absolute inset-0 bg-[rgb(252,70,100)] -translate-x-full transition-transform duration-300 ease-in-out group-hover:translate-x-0 -z-10 "></span>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
