@@ -2,16 +2,38 @@
   <h2 class="text-4xl font-bold text-center">Follow Us</h2>
   <div class="flex flex-col md:w-max-xl justify-center w-full">
     <div class="flex flex-wrap justify-center">
-        <a href="mailto:satechstudios@gmail.com" aria-label="Email" class="rounded-full p-2 bg-slate-200 hover:text-white text-black hover:bg-black m-5 block"><i class="ph-fill ph-envelope-open text-3xl self-center"></i></a>
-        <a href="https://www.x.com" aria-label="X" class="rounded-full p-2 bg-slate-200 hover:text-white text-black hover:bg-black m-5 block"><i class="ph-fill ph-x-logo text-3xl self-center"></i></a>
-        <a href="https://www.facebook.com/share/aXFzouEqmaL6oif4/" aria-label="Facebook" class="rounded-full p-2 bg-slate-200 hover:text-white text-black hover:bg-black m-5 block"><i class="ph-fill ph-facebook-logo text-3xl self-center"></i></a>
-        <a href="https://www.instagram.com/satechstudios" aria-label="Instagram" class="rounded-full p-2 bg-slate-200 hover:text-white text-black hover:bg-black m-5 block"><i class="ph-fill ph-instagram-logo text-3xl self-center"></i></a>
-        <a href="https://discord.gg/4CAmk9Rh" aria-label="Discord" class="rounded-full p-2 bg-slate-200 hover:text-white text-black hover:bg-black m-5 block"><i class="ph-fill ph-discord-logo text-3xl self-center"></i></a>
-        <a href="https://www.linkedin.com/satechstudios" aria-label="LinkedIn" class="rounded-full p-2 bg-slate-200 hover:text-white text-black hover:bg-black m-5 block"><i class="ph-fill ph-linkedin-logo text-3xl self-center"></i></a>
-        <a href="https://youtube.com/@satechstudios" aria-label="YouTube" class="rounded-full p-2 bg-slate-200 hover:text-white text-black hover:bg-black m-5 block"><i class="ph-fill ph-youtube-logo text-3xl self-center"></i></a>
+        <a href="mailto:satechstudios@gmail.com" aria-label="Email" 
+           class="w-12 h-12 flex items-center justify-center rounded-full bg-slate-200 hover:text-white text-black hover:bg-black m-5">
+            <i class="ph-fill ph-envelope-open text-2xl"></i>
+        </a>
+        <a href="https://www.x.com" aria-label="X" 
+           class="w-12 h-12 flex items-center justify-center rounded-full bg-slate-200 hover:text-white text-black hover:bg-black m-5">
+            <i class="ph-fill ph-x-logo text-2xl"></i>
+        </a>
+        <a href="https://www.facebook.com/share/aXFzouEqmaL6oif4/" aria-label="Facebook" 
+           class="w-12 h-12 flex items-center justify-center rounded-full bg-slate-200 hover:text-white text-black hover:bg-black m-5">
+            <i class="ph-fill ph-facebook-logo text-2xl"></i>
+        </a>
+        <a href="https://www.instagram.com/satechstudios" aria-label="Instagram" 
+           class="w-12 h-12 flex items-center justify-center rounded-full bg-slate-200 hover:text-white text-black hover:bg-black m-5">
+            <i class="ph-fill ph-instagram-logo text-2xl"></i>
+        </a>
+        <a href="https://discord.gg/4CAmk9Rh" aria-label="Discord" 
+           class="w-12 h-12 flex items-center justify-center rounded-full bg-slate-200 hover:text-white text-black hover:bg-black m-5">
+            <i class="ph-fill ph-discord-logo text-2xl"></i>
+        </a>
+        <a href="https://www.linkedin.com/satechstudios" aria-label="LinkedIn" 
+           class="w-12 h-12 flex items-center justify-center rounded-full bg-slate-200 hover:text-white text-black hover:bg-black m-5">
+            <i class="ph-fill ph-linkedin-logo text-2xl"></i>
+        </a>
+        <a href="https://youtube.com/@satechstudios" aria-label="YouTube" 
+           class="w-12 h-12 flex items-center justify-center rounded-full bg-slate-200 hover:text-white text-black hover:bg-black m-5">
+            <i class="ph-fill ph-youtube-logo text-2xl"></i>
+        </a>
     </div>
   </div>
 </div>
+
 
 <div class="flex md:p-5 pt-5 justify-center">
   <form class="lg:w-1/2 w-[400px] p-3">
