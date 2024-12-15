@@ -4,9 +4,9 @@
         {
             image: "https://via.placeholder.com/150",
             alt: "placeholder",
-            title: "Our Projects",
+            title: "Portfolio",
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
-            href: "/projects"
+            href: "/portfolio"
         },
         {
             image: "https://via.placeholder.com/150",
