@@ -1,7 +1,14 @@
 <script>
   import { page } from '$app/stores';
 
-  let navItems = [];
+  let navItems = [
+        { name: 'Home', href: '/#top-section' },
+        { name: 'About', href: '/#about' },
+        { name: 'Portfolio', href: '/portfolio' },
+        { name: 'Courses', href: '/courses' },
+        { name:'Blog', href:'/blog'},
+        { name: 'Contact', href: '/#contact' }
+      ];
 
   // Update navigation items based on the current page
   $: {
@@ -9,27 +16,29 @@
       navItems = [
         { name: 'Home', href: '/#top-section' },
         { name: 'About', href: '/#about' },
-        { name: 'Projects', href: '/projects' },
+        { name: 'Portfolio', href: '/portfolio' },
         { name: 'Courses', href: '/courses' },
         { name:'Blog', href:'/blog'},
         { name: 'Contact', href: '/#contact' }
       ];
-    } else if ($page.url.pathname === '/projects') {
+    } else if ($page.url.pathname === '/portfolio') {
       navItems = [
         { name: 'Home', href: '/' },
         { name: 'Courses', href: '/courses' },
+        { name:'Blog', href:'/blog'},
         { name: 'Contact', href: '/contact' }
       ];
     } else if ($page.url.pathname === '/courses') {
       navItems = [
         { name: 'Home', href: '/' },
-        { name: 'Projects', href: '/projects' },
+        { name: 'Portfolio', href: '/portfolio' },
+        { name:'Blog', href:'/blog'},
         { name: 'Contact', href: '/contact' }
       ];
     } else if($page.url.pathname === '/blog'){
       navItems = [
         { name: 'Home', href: '/' },
-        { name: 'Projects', href: '/projects' },
+        { name: 'Portfolio', href: '/portfolio' },
         { name: 'Courses', href: '/courses' },
         { name: 'Contact', href: '/contact' }
       ];

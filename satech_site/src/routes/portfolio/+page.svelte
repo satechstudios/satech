@@ -16,7 +16,7 @@
 </script>
 
 <div class="md:m-5 md:p-5 mt-5">
-    <p class="md:text-6xl text-3xl text-center uppercase font-bold">Our Projects</p>
+    <p class="md:text-6xl text-3xl text-center uppercase font-bold">Portfolio</p>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 m-5 p-5">
         {#each Array(Math.ceil(images.length / 3)).fill() as _, i}
             <div class="grid gap-4">
