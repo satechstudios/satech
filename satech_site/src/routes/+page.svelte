@@ -14,20 +14,6 @@
             title: "Courses",
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
             href: "/courses"
-        },
-        {
-            image: "https://via.placeholder.com/150",
-            alt: "placeholder",
-            title: "Title 3",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
-            href: "/projects"
-        },
-        {
-            image: "https://via.placeholder.com/150",
-            alt: "placeholder",
-            title: "Title 4",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
-            href: "/projects"
         }
     ];
 </script>
@@ -42,7 +28,7 @@
         We the talented and passionate team will work hard to bring your wildest dreams into reality with the help of AR/VR
       </p>
       <a href="#services" class="self-center">
-          <button class="w-40 bg-blue-800 text-xl hover:bg-blue-600 hover:-translate-y-1 hover:scale-110 p-3 rounded-xl m-5">Our Services</button>
+          <button class="w-40 bg-blue-800 text-xl hover:bg-blue-600 hover:-translate-y-1 hover:scale-110 p-3 rounded-xl m-5">Get Started</button>
       </a>
     </div>
   </div>

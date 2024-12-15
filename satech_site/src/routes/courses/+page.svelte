@@ -15,7 +15,7 @@
     }
 </script>
 
-<div>
+<div class="text-selection-white">
     <p class="m-5 p-5 text-center font-bold md:text-6xl sm:text-3xl text-xl uppercase" id="top">Our Courses</p>
 
     <!-- Expanded selected course -->
