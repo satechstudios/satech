@@ -47,7 +47,6 @@
     { href: "https://x.com/Satechstudios?t=w_vodu5TGP5CWeuR-8JCMw&s=09", ariaLabel: "X", iconClass: "ph-fill ph-x-logo" },
     { href: "https://www.facebook.com/share/aXFzouEqmaL6oif4/", ariaLabel: "Facebook", iconClass: "ph-fill ph-facebook-logo" },
     { href: "https://www.instagram.com/satechstudios", ariaLabel: "Instagram", iconClass: "ph-fill ph-instagram-logo" },
-    { href: "https://discord.gg/4CAmk9Rh", ariaLabel: "Discord", iconClass: "ph-fill ph-discord-logo" },
     { href: "https://www.linkedin.com/company/satech-studios/", ariaLabel: "LinkedIn", iconClass: "ph-fill ph-linkedin-logo" },
     { href: "https://youtube.com/@satechstudios", ariaLabel: "YouTube", iconClass: "ph-fill ph-youtube-logo" },
     { href: "https://www.behance.net/satechstudios", ariaLabel: "Behance", iconClass: "ph-fill ph-behance-logo" },
