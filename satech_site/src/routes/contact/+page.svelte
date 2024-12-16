@@ -1,7 +1,7 @@
 <script>
   import { onMount } from 'svelte';
 
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbz4xFrG1D8LDYBBJ8bkD9c7V2o2s11lcLgh1ZfsCNxIOBEN-nE7Os_IMlrFTvVyv-rq2w/exec';
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbw6901srxECceQjqcFRhMleJ8vQEf8vQodMKBfiB-M51gdQ6cllm-dLaQBXTLXIY17-_A/exec';
 
   let form;
 
@@ -20,6 +20,28 @@
       .then(() => { window.location.reload(); })
       .catch(error => console.error('Error!', error.message));
   }
+
+  let status = "";
+const handleSubmit2 = async data => {
+  status = 'Submitting...'
+  const formData = new FormData(data.currentTarget)
+  const object = Object.fromEntries(formData);
+  const json = JSON.stringify(object);
+
+  const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+      },
+      body: json
+  });
+  const result = await response.json();
+  if (result.success) {
+      console.log(result);
+      status = result.message || "Success"
+  }
+}
 </script>
 
 <div class="flex flex-col items-center md:p-5 pt-5">
@@ -63,7 +85,8 @@
 </div>
 
 <div class="flex md:p-5 pt-5 justify-center">
-  <form bind:this={form} class="lg:w-1/2 w-[400px] p-3" method="post" action="" name="contact-form">
+  <form bind:this={form} class="lg:w-1/2 w-[400px] p-3" method="post" action="" name="contact-form" on:submit|preventDefault={handleSubmit2}>
+    <input type="hidden" name="access_key" value="76803e84-ecab-4c6b-8237-0d7a53f5e345">
     <div class="mb-5">
       <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your name</label>
       <input name="name" type="text" id="name" placeholder="John Doe" required class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
