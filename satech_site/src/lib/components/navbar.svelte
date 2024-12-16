@@ -150,7 +150,7 @@
               <!-- Normal Link -->
               <a
                 href={item.href}
-                class="block py-2 px-3 rounded md:p-0 hover:bg-gray-700 md:border-0 text-white md:hover:text-blue-500 dark:hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
+                class="block py-2 px-3 rounded md:p-0  md:border-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
               >
                 {item.name}
               </a>
