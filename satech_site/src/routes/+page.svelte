@@ -5,14 +5,14 @@
             image: "/portfolio.jpg",
             alt: "Portfolio image",
             title: "Portfolio",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+            description: "Welcome to my portfolio, a showcase of innovative projects and creative designs. Dive into a collection that reflects my passion for technology, design, and impactful solutions.",
             href: "/portfolio"
         },
         {
             image: "/course.png",
             alt: "Course image",
             title: "Courses",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+            description: "Combine the power of multiple disciplines into one seamless learning journey. From concept to completion, these courses integrate everything for well-rounded expertise.",
             href: "/courses"
         }
     ];

@@ -41,49 +41,34 @@
       status = result.message || "Success";
     }
   };
+
+  let socialLinks = [
+    { href: "mailto:satechstudios@gmail.com", ariaLabel: "Email", iconClass: "ph-fill ph-envelope-open" },
+    { href: "https://x.com/Satechstudios?t=w_vodu5TGP5CWeuR-8JCMw&s=09", ariaLabel: "X", iconClass: "ph-fill ph-x-logo" },
+    { href: "https://www.facebook.com/share/aXFzouEqmaL6oif4/", ariaLabel: "Facebook", iconClass: "ph-fill ph-facebook-logo" },
+    { href: "https://www.instagram.com/satechstudios", ariaLabel: "Instagram", iconClass: "ph-fill ph-instagram-logo" },
+    { href: "https://discord.gg/4CAmk9Rh", ariaLabel: "Discord", iconClass: "ph-fill ph-discord-logo" },
+    { href: "https://www.linkedin.com/company/satech-studios/", ariaLabel: "LinkedIn", iconClass: "ph-fill ph-linkedin-logo" },
+    { href: "https://youtube.com/@satechstudios", ariaLabel: "YouTube", iconClass: "ph-fill ph-youtube-logo" },
+    { href: "https://www.behance.net/satechstudios", ariaLabel: "Behance", iconClass: "ph-fill ph-behance-logo" }
+  ];
 </script>
 
 <div class="flex flex-col items-center md:p-5 pt-5">
   <h2 class="text-4xl font-bold text-center">Follow Us</h2>
   <div class="flex flex-col md:w-max-xl justify-center w-full">
     <div class="flex flex-wrap justify-center">
-        <!-- Social Media Links -->
-        <a href="mailto:satechstudios@gmail.com" aria-label="Email" 
+      {#each socialLinks as link}
+        <a href={link.href} aria-label={link.ariaLabel} 
            class="w-12 h-12 flex items-center justify-center rounded-full bg-slate-200 hover:text-white text-black hover:bg-black m-5">
-            <i class="ph-fill ph-envelope-open text-2xl"></i>
+          <i class={link.iconClass + " text-2xl"}></i>
         </a>
-        <a href="https://www.x.com" aria-label="X" 
-           class="w-12 h-12 flex items-center justify-center rounded-full bg-slate-200 hover:text-white text-black hover:bg-black m-5">
-            <i class="ph-fill ph-x-logo text-2xl"></i>
-        </a>
-        <a href="https://www.facebook.com/share/aXFzouEqmaL6oif4/" aria-label="Facebook" 
-           class="w-12 h-12 flex items-center justify-center rounded-full bg-slate-200 hover:text-white text-black hover:bg-black m-5">
-            <i class="ph-fill ph-facebook-logo text-2xl"></i>
-        </a>
-        <a href="https://www.instagram.com/satechstudios" aria-label="Instagram" 
-           class="w-12 h-12 flex items-center justify-center rounded-full bg-slate-200 hover:text-white text-black hover:bg-black m-5">
-            <i class="ph-fill ph-instagram-logo text-2xl"></i>
-        </a>
-        <a href="https://discord.gg/4CAmk9Rh" aria-label="Discord" 
-           class="w-12 h-12 flex items-center justify-center rounded-full bg-slate-200 hover:text-white text-black hover:bg-black m-5">
-            <i class="ph-fill ph-discord-logo text-2xl"></i>
-        </a>
-        <a href="https://www.linkedin.com/satechstudios" aria-label="LinkedIn" 
-           class="w-12 h-12 flex items-center justify-center rounded-full bg-slate-200 hover:text-white text-black hover:bg-black m-5">
-            <i class="ph-fill ph-linkedin-logo text-2xl"></i>
-        </a>
-        <a href="https://youtube.com/@satechstudios" aria-label="YouTube" 
-           class="w-12 h-12 flex items-center justify-center rounded-full bg-slate-200 hover:text-white text-black hover:bg-black m-5">
-            <i class="ph-fill ph-youtube-logo text-2xl"></i>
-        </a>
-        <a href="https://www.behance.net/satechstudios" aria-label="Behance" 
-           class="w-12 h-12 flex items-center justify-center rounded-full bg-slate-200 hover:text-white text-black hover:bg-black m-5">
-            <i class="ph-fill ph-behance-logo text-2xl"></i>
-        </a>
+      {/each}
     </div>
   </div>
 </div>
 
+<h2 class="text-4xl font-bold text-center">Contact Our Team</h2>
 <div class="flex md:p-5 pt-5 justify-center">
   <form bind:this={form} class="lg:w-1/2 w-[400px] p-3" method="post" action="" name="contact-form" on:submit|preventDefault={handleSubmit2}>
     <input type="hidden" name="access_key" value="76803e84-ecab-4c6b-8237-0d7a53f5e345">
