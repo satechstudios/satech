@@ -9,7 +9,7 @@
             href: "/portfolio"
         },
         {
-            image: "/course.png",
+            image: "/course.jpg",
             alt: "Course image",
             title: "Courses",
             description: "Combine the power of multiple disciplines into one seamless learning journey. From concept to completion, these courses integrate everything for well-rounded expertise.",
