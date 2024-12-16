@@ -50,7 +50,8 @@
     { href: "https://discord.gg/4CAmk9Rh", ariaLabel: "Discord", iconClass: "ph-fill ph-discord-logo" },
     { href: "https://www.linkedin.com/company/satech-studios/", ariaLabel: "LinkedIn", iconClass: "ph-fill ph-linkedin-logo" },
     { href: "https://youtube.com/@satechstudios", ariaLabel: "YouTube", iconClass: "ph-fill ph-youtube-logo" },
-    { href: "https://www.behance.net/satechstudios", ariaLabel: "Behance", iconClass: "ph-fill ph-behance-logo" }
+    { href: "https://www.behance.net/satechstudios", ariaLabel: "Behance", iconClass: "ph-fill ph-behance-logo" },
+    { href: "https://t.me/SAtechstudios", ariaLabel: "Telegram", iconClass: "ph-fill ph-telegram-logo" } 
   ];
 </script>
 
