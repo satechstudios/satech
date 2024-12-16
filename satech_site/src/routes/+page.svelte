@@ -65,7 +65,7 @@
     </div>
     <div class="w-full">
         <div class="flex flex-col">
-            <p class="xl:text-6xl text-3xl font-bold uppercase self-center m-5">Contact Us</p>
+            <p class="xl:text-6xl text-3xl font-bold uppercase self-center m-5">Contac Us</p>
             <div class="m-5 sm:p-5 self-center">
                 <table class="w-full">
                     <tbody>
