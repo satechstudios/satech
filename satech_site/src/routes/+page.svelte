@@ -39,7 +39,7 @@
     </div>
     <div class="max-w-screen-xl mx-auto sm:p-5 self-center">
         <p class="text-center md:text-6xl text-3xl uppercase font-bold p-5 m-5 text-blue-400">About Us</p>
-        <p class="sm:text-center md:text-xl text-md sm:p-5 sm:m-5 my-3 text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, libero. Amet, soluta ea doloremque est corporis reprehenderit dicta natus numquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos explicabo unde similique itaque odit cupiditate aspernatur, non qui ad aut! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, vitae!</p>
+        <p class="sm:text-center md:text-xl text-md sm:p-5 sm:m-5 my-3 text-justify">We specialize in offering courses in the dynamic field of design, covering domains like AR/VR, Photoshop, After Effects, Premiere Pro, UI/UX, 3D modeling, gaming, and more. Additionally, we provide professional freelance services with a team of experienced and creative individuals dedicated to delivering stunning outputs that meet the expectations of the modern generation.</p>
     </div>
 </div>
 
