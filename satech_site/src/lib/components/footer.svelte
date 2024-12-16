@@ -17,7 +17,7 @@
       <div class="sm:flex sm:items-center sm:justify-between">
           <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">&copy <a href="/" class="hover:underline">SAtech Studios</a>. All Rights Reserved.
           </span>
-        <div class="flex mt-4 sm:justify-center sm:mt-0">
+        <div class="flex mt-4 sm:justify-center sm:mt-0 flex-wrap sm:flex-row">
             {#each socialLinks as link}
                 <a href={link.href} aria-label={link.ariaLabel} class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
                     <i class={link.iconClass + " w-4 h-4"}></i>

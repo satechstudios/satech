@@ -1,22 +1,27 @@
 <script>
     import "./styles.css"
-    const items = [
-        {
-            image: "/portfolio.jpg",
-            alt: "Portfolio image",
-            title: "Portfolio",
-            description: "Welcome to my portfolio, a showcase of innovative projects and creative designs. Dive into a collection that reflects my passion for technology, design, and impactful solutions.",
-            href: "/portfolio"
-        },
-        {
-            image: "/course.jpg",
-            alt: "Course image",
-            title: "Courses",
-            description: "Combine the power of multiple disciplines into one seamless learning journey. From concept to completion, these courses integrate everything for well-rounded expertise.",
-            href: "/courses"
-        }
-    ];
+    import Carousal from "$lib/components/carousal.svelte";
+
+let items = [
+  {
+    image: "/portfolio.jpg",
+    alt: "Portfolio image",
+    title: "Portfolio",
+    description: "Welcome to my portfolio, a showcase of innovative projects and creative designs. Dive into a collection that reflects my passion for technology, design, and impactful solutions.",
+    href: "/portfolio",
+  },
+  {
+    image: "/course.jpg",
+    alt: "Course image",
+    title: "Courses",
+    description: "Combine the power of multiple disciplines into one seamless learning journey. From concept to completion, these courses integrate everything for well-rounded expertise.",
+    href: "/courses",
+  },
+];
+
+
 </script>
+  
 
 <div id="top-section" class="text-white relative" style="background-image: url('main_img.png');">
     <div class="absolute inset-0 bg-black opacity-85 z-0"></div>
@@ -59,6 +64,15 @@
     </div>
 </section>
 
+<section id="team-mem">
+
+</section>
+
+<section id="previous" class="m-5">
+    <h2 class="md:text-6xl text-3xl text-center font-bold m-5">Our events</h2>
+    <Carousal />
+</section>
+
 <section class="bg-[#111827] p-5 flex lg:flex-row-reverse flex-col-reverse" id="contact">
     <div class="flex justify-center w-full">
         <img src="speaking-phn.png" alt="a guy speaking in phone" class="lg:w-full w-3/4 md:min-w-96 max-w-[1300px] min-w-60 hidden sm:block self-center">
@@ -96,3 +110,14 @@
         </div>
     </div>
 </section>
+
+<style>
+    .card {
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+  
