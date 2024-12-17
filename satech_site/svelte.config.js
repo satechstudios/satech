@@ -4,11 +4,11 @@ export default {
 	kit: {
 		adapter: adapter(),
 		prerender: {
-			handleHttpError: ({ status, path, referrer }) => {
-				// Ignore all 404 errors during prerendering
+			handleHttpError: ({ status, path }) => {
+				// Redirect all 404 errors to /404
 				if (status === 404) {
-					console.warn(`Ignoring 404 error for ${path} (linked from ${referrer || 'unknown'})`);
-					return;
+					console.warn(`Redirecting ${path} to /404`);
+					return { path: '/404' };
 				}
 
 				// Throw for other types of errors
