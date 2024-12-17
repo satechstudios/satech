@@ -9,23 +9,29 @@
         },
         {
             name: "Deevith",
-            title: "3D Generalised",
+            title: "3D Generalist",
             image: "/team/deevith.jpg",
             linkedin: "https://www.linkedin.com/in/deevith-m-1b0729264/",
+        },
+        {
+            name: "Naresh S K",
+            title: "Unity Developer",
+            image: "/team/naresh.jpeg",
+            linkedin: "https://www.linkedin.com/in/naresh-s-k-aaa35724a",
         }
         // Add more team members here
     ];
 </script>
 
-<div class="w-full flex justify-center p-5 md:flex-row flex-col" >
+<div class="w-full flex justify-center md:p-5 md:flex-row flex-col" >
     {#each teamMembers as member}
-        <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4 flex max-w-[300px] self-center md:self-auto">
+        <div class="w-full md:w-6/12 lg:w-3/12 mb-6 lg:px-4 flex flex-col max-w-[300px] self-center md:self-auto">
             <div class="self-center">
                 <!-- Avatar -->
-                <a href="/" class="block mx-auto">
-                    <img class="rounded-2xl shadow-md hover:shadow-lg transition-all duration-200 delay-100"
+                <a href="/" class="flex flex-col">
+                    <img class="rounded-2xl md:h-64 md:w-64 sm:w-56 sm:h-56 h-44 w-44 self-center"
                         src={member.image}
-                        alt={member.name}>
+                        alt={member.name}/>
                 </a>
         
                 <!-- Details -->
