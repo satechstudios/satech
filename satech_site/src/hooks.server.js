@@ -10,7 +10,7 @@ export async function handle({ event, resolve }) {
     // Check if it's a 404 response
     if (response.status === 404) {
       // Load the custom 404.html file
-      const errorPagePath = path.resolve('./404.html');
+      const errorPagePath = path.resolve('$lib/404.html');
       const errorPage = fs.readFileSync(errorPagePath, 'utf-8');
 
       return new Response(errorPage, {
@@ -22,7 +22,7 @@ export async function handle({ event, resolve }) {
     return response;
   } catch (err) {
     // If something goes wrong, serve the 404.html as a fallback
-    const errorPagePath = path.resolve('./404.html');
+    const errorPagePath = path.resolve('.$lib/404.html');
     const errorPage = fs.readFileSync(errorPagePath, 'utf-8');
 
     return new Response(errorPage, {
