@@ -1,6 +1,7 @@
 <script>
     import "./styles.css"
     import Carousal from "$lib/components/carousal.svelte";
+    import Teammem from "$lib/components/teammem.svelte";
 
 let items = [
   {
@@ -64,14 +65,18 @@ let items = [
     </div>
 </section>
 
-<section id="team-mem">
-
-</section>
-
-<section id="previous" class="m-5">
+<section id="previous" class="p-5 bg-[#111827]">
     <h2 class="md:text-6xl text-3xl text-center font-bold m-5">Our events</h2>
     <Carousal />
 </section>
+
+
+<section id="team-mem" class="p-5">
+    <h2 class="text-5xl font-bold text-center">Team Members</h2>
+    <Teammem />
+</section>
+
+
 
 <section class="bg-[#111827] p-5 flex lg:flex-row-reverse flex-col-reverse" id="contact">
     <div class="flex justify-center w-full">

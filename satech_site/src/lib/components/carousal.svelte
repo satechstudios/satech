@@ -1,138 +1,148 @@
 <script>
-    import { onMount, onDestroy } from "svelte";
-  
-    // Example items for the carousel cards
-    let carouselItems = [
-      {
-        image: "https://via.placeholder.com/300x200?text=Creative+Designs",
-        alt: "Creative Designs",
-        title: "Creative Designs",
-        description: "Explore unique and innovative designs that bring your ideas to life.",
-        href: "/designs",
-      },
-      {
-        image: "https://via.placeholder.com/300x200?text=Innovative+Solutions",
-        alt: "Innovative Solutions",
-        title: "Innovative Solutions",
-        description: "Discover cutting-edge solutions tailored to meet your needs.",
-        href: "/solutions",
-      },
-      {
-        image: "https://via.placeholder.com/300x200?text=Seamless+Integrations",
-        alt: "Seamless Integrations",
-        title: "Seamless Integrations",
-        description: "Integrate technology effortlessly with streamlined workflows.",
-        href: "/integrations",
-      },
-      {
-        image: "https://via.placeholder.com/300x200?text=Expert+Support",
-        alt: "Expert Support",
-        title: "Expert Support",
-        description: "Count on our dedicated team for expert guidance and support.",
-        href: "/support",
-      },
-    ];
-  
-    let currentIndex = 0;
-    let timer;
-  
-    // Reactive statement for calculating visible items
-    let visibleItemsCount;
-    const getVisibleItemsCount = () => {
-      if (window.innerWidth >= 1024) return 4; // Large screens
-      if (window.innerWidth >= 640) return 2; // Medium screens
-      return 1; // Small screens
-    };
-  
-    // Lifecycle hook to update visible items on mount and resize
-    onMount(() => {
-      visibleItemsCount = getVisibleItemsCount();
+  import { onMount, onDestroy } from "svelte";
+
+  let carouselItems = [
+    {
+      image: "https://via.placeholder.com/300x200?text=Creative+Designs",
+      alt: "Creative Designs",
+      title: "Creative Designs",
+      description: "Explore unique and innovative designs that bring your ideas to life.",
+      href: "/designs",
+    },
+    {
+      image: "https://via.placeholder.com/300x200?text=Innovative+Solutions",
+      alt: "Innovative Solutions",
+      title: "Innovative Solutions",
+      description: "Discover cutting-edge solutions tailored to meet your needs.",
+      href: "/solutions",
+    },
+    {
+      image: "https://via.placeholder.com/300x200?text=Seamless+Integrations",
+      alt: "Seamless Integrations",
+      title: "Seamless Integrations",
+      description: "Integrate technology effortlessly with streamlined workflows.",
+      href: "/integrations",
+    },
+    {
+      image: "https://via.placeholder.com/300x200?text=Expert+Support",
+      alt: "Expert Support",
+      title: "Expert Support",
+      description: "Count on our dedicated team for expert guidance and support.",
+      href: "/support",
+    },
+  ];
+
+  let currentIndex = 0;
+  let visibleItemsCount = 1;
+  let timer;
+
+  // Determine visible items based on screen size
+  const getVisibleItemsCount = () => {
+    if (window.innerWidth >= 1024) return 4; // Large screens
+    if (window.innerWidth >= 640) return 2; // Medium screens
+    return 1; // Small screens
+  };
+
+  // Update visible items count on resize
+  const updateVisibleItemsCount = () => {
+    visibleItemsCount = getVisibleItemsCount();
+  };
+
+  // Start auto-scroll
+  const startAutoScroll = () => {
+    timer = setInterval(nextSlide, 5000);
+  };
+
+  // Stop auto-scroll
+  const stopAutoScroll = () => {
+    if (timer) clearInterval(timer);
+  };
+
+  // Move to the previous slide
+  const prevSlide = () => {
+    currentIndex =
+      (currentIndex - visibleItemsCount + carouselItems.length) %
+      carouselItems.length;
+  };
+
+  // Move to the next slide
+  const nextSlide = () => {
+    currentIndex = (currentIndex + visibleItemsCount) % carouselItems.length;
+  };
+
+  // Lifecycle Hooks
+  onMount(() => {
+    if (typeof window !== "undefined") {
+      updateVisibleItemsCount();
       window.addEventListener("resize", updateVisibleItemsCount);
-  
-      // Start auto-scroll timer
       startAutoScroll();
-  
-      return () => {
-        window.removeEventListener("resize", updateVisibleItemsCount);
-        stopAutoScroll();
-      };
-    });
-  
-    onDestroy(() => {
+    }
+  });
+
+  onDestroy(() => {
+    if (typeof window !== "undefined") {
+      window.removeEventListener("resize", updateVisibleItemsCount);
       stopAutoScroll();
-    });
-  
-    const updateVisibleItemsCount = () => {
-      visibleItemsCount = getVisibleItemsCount();
-      updateCarousel();
-    };
-  
-    // Update carousel translation
-    const updateCarousel = () => {
-      const itemWidth = document.querySelector(".carousel-item")?.offsetWidth || 0;
-      const translateX = -(currentIndex * itemWidth);
-      document.getElementById("carousel-items").style.transform = `translateX(${translateX}px)`;
-    };
-  
-    // Move to the previous slide
-    const prevSlide = () => {
-      currentIndex = (currentIndex - visibleItemsCount + carouselItems.length) % carouselItems.length;
-      updateCarousel();
-    };
-  
-    // Move to the next slide
-    const nextSlide = () => {
-      currentIndex = (currentIndex + visibleItemsCount) % carouselItems.length;
-      updateCarousel();
-    };
-  
-    // Start auto-scroll with a timer
-    const startAutoScroll = () => {
-      timer = setInterval(() => {
-        nextSlide();
-      }, 5000); // Change slide every 5 seconds
-    };
-  
-    // Stop auto-scroll
-    const stopAutoScroll = () => {
-      if (timer) clearInterval(timer);
-    };
-  </script>
-  
-  <div id="carousel" class="relative w-full">
-    <!-- Carousel Wrapper -->
-    <div class="overflow-hidden">
+    }
+  });
+</script>
+
+<!-- Carousel -->
+<div id="carousel" class="relative w-full overflow-hidden">
+  <!-- Carousel Wrapper -->
+  <div
+    id="carousel-items"
+    class="flex transition-transform duration-700 ease-in-out"
+    style="transform: translateX(-{currentIndex * (100 / visibleItemsCount)}%);"
+  >
+    {#each carouselItems as item (item.title)}
       <div
-        id="carousel-items"
-        class="flex transition-transform duration-700 ease-in-out"
+        class="relative flex-shrink-0 group p-5"
+        style="width: {100 / visibleItemsCount}%;"
       >
-        {#each carouselItems as item (item.title)}
-          <div class="flex-none w-full sm:w-1/2 lg:w-1/4 p-4 carousel-item">
-            <div class="card bg-gray-100 rounded-lg shadow-md p-6 text-center">
-              <img src={item.image} alt={item.alt} class="rounded-md mb-4" />
-              <h3 class="text-xl font-semibold">{item.title}</h3>
-              <p class="text-gray-600">{item.description}</p>
-              <a href={item.href} class="text-blue-500 mt-4 block">Learn More</a>
-            </div>
-          </div>
-        {/each}
+        <!-- Image -->
+        <img class="w-full" src={item.image} alt={item.alt} />
+
+        <!-- Description Overlay -->
+        {#if item.description}
+          <p
+            class="absolute bottom-0 left-0 w-full px-5 p-2 bg-black/70 text-white text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          >
+            {item.description}
+          </p>
+        {/if}
       </div>
-    </div>
-  
-    <!-- Navigation Buttons -->
-    <button
-      on:click={() => { stopAutoScroll(); prevSlide(); startAutoScroll(); }}
-      class="absolute top-1/2 left-0 transform -translate-y-1/2 p-3 w-10 h-10 justify-center flex bg-gray-800 text-white rounded-full"
-      aria-label="Previous Slide"
-    >
-    <i class="ph-light ph-caret-left"></i>
-    </button>
-    <button
-      on:click={() => { stopAutoScroll(); nextSlide(); startAutoScroll(); }}
-      class="absolute top-1/2 right-0 transform w-10 h-10 flex justify-center -translate-y-1/2 p-3 bg-gray-800 text-white rounded-full"
-      aria-label="Next Slide"
-    >
-    <i class="ph-light ph-caret-right"></i>
-    </button>
+    {/each}
   </div>
-  
+
+  <!-- Navigation Buttons -->
+  <button
+    on:click={() => {
+      stopAutoScroll();
+      prevSlide();
+      startAutoScroll();
+    }}
+    class="absolute top-1/2 left-2 transform -translate-y-1/2 bg-gray-800 text-white rounded-full p-2"
+    aria-label="Previous Slide"
+  >
+    &lt;
+  </button>
+  <button
+    on:click={() => {
+      stopAutoScroll();
+      nextSlide();
+      startAutoScroll();
+    }}
+    class="absolute top-1/2 right-2 transform -translate-y-1/2 bg-gray-800 text-white rounded-full p-2"
+    aria-label="Next Slide"
+  >
+    &gt;
+  </button>
+</div>
+
+<style>
+  #carousel-items {
+    display: flex;
+    transition: transform 0.7s ease-in-out;
+  }
+</style>
