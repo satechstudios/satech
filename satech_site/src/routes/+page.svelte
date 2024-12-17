@@ -78,7 +78,7 @@ let items = [
 </section>
 
 
-<section class="bg-[#111827] p-5 flex lg:flex-row-reverse flex-col-reverse" id="contact">
+<section class="p-5 flex lg:flex-row-reverse flex-col-reverse" id="contact">
     <div class="flex justify-center w-full">
         <img src="speaking-phn.png" alt="a guy speaking in phone" class="lg:w-full w-3/4 md:min-w-96 max-w-[1300px] min-w-60 hidden sm:block self-center">
     </div>
