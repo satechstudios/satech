@@ -1,4 +1,5 @@
 <script>
+    
     const data = [
         { src: "/projects/prj1.png", description: "Project 1 Description" },
         { src: "/projects/prj2.png" },

@@ -111,13 +111,6 @@ let items = [
     </div>
 </section>
 
+
 <style>
-    .card {
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-    .card:hover {
-      transform: scale(1.05);
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    }
-  </style>
-  
+</style>
