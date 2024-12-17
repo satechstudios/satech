@@ -5,6 +5,7 @@
     import { page } from '$app/stores';
 </script>
 
+
 <Navbar/>
 <div class="grow">
     <slot>
