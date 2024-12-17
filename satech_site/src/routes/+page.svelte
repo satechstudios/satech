@@ -18,6 +18,13 @@ let items = [
     description: "Combine the power of multiple disciplines into one seamless learning journey. From concept to completion, these courses integrate everything for well-rounded expertise.",
     href: "/courses",
   },
+  {
+    image: "/portfolio.jpg",
+    alt: "Team Image",
+    title: "Team",
+    description: "Meet the talented individuals who bring ideas to life. Our team is dedicated to delivering exceptional results and creating memorable experiences for every project.",
+    href: "/team",
+  }
 ];
 
 
@@ -69,13 +76,6 @@ let items = [
     <h2 class="md:text-6xl text-3xl text-center font-bold m-5">Our events</h2>
     <Carousal />
 </section>
-
-
-<section id="team-mem" class="p-5">
-    <h2 class="text-5xl font-bold text-center">Team Members</h2>
-    <Teammem />
-</section>
-
 
 
 <section class="bg-[#111827] p-5 flex lg:flex-row-reverse flex-col-reverse" id="contact">

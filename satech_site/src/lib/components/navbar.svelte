@@ -14,42 +14,55 @@
   $: {
     if ($page.url.pathname === '/') {
       navItems = [
-        { name: 'Home', href: '/#top-section' },
-        { name: 'About', href: '/#about' },
-        { name: 'Portfolio', href: '/portfolio' },
-        { name: 'Courses', href: '/courses' },
-        { name:'Blog', href:'/blog'},
-        { name: 'Contact', href: '/contact' }
+      { name: 'Home', href: '/#top-section' },
+      { name: 'About', href: '/#about' },
+      { name: 'Portfolio', href: '/portfolio' },
+      { name: 'Courses', href: '/courses' },
+      { name:'Blog', href:'/blog'},
+      { name: 'Contact', href: '/contact' },
+      { name: 'Team', href: '/team' }
       ];
-    } else if ($page.url.pathname === '/portfolio') {
+        } else if ($page.url.pathname === '/portfolio') {
       navItems = [
-        { name: 'Home', href: '/' },
-        { name: 'Courses', href: '/courses' },
-        { name:'Blog', href:'/blog'},
-        { name: 'Contact', href: '/contact' }
+      { name: 'Home', href: '/' },
+      { name: 'Courses', href: '/courses' },
+      { name:'Blog', href:'/blog'},
+      { name: 'Contact', href: '/contact' },
+      { name: 'Team', href: '/team' }
       ];
-    } else if ($page.url.pathname === '/courses') {
+        } else if ($page.url.pathname === '/courses') {
       navItems = [
-        { name: 'Home', href: '/' },
-        { name: 'Portfolio', href: '/portfolio' },
-        { name:'Blog', href:'/blog'},
-        { name: 'Contact', href: '/contact' }
+      { name: 'Home', href: '/' },
+      { name: 'Portfolio', href: '/portfolio' },
+      { name:'Blog', href:'/blog'},
+      { name: 'Contact', href: '/contact' },
+      { name: 'Team', href: '/team' }
       ];
-    } else if($page.url.pathname === '/blog'){
+        } else if($page.url.pathname === '/blog'){
       navItems = [
-        { name: 'Home', href: '/' },
-        { name: 'Portfolio', href: '/portfolio' },
-        { name: 'Courses', href: '/courses' },
-        { name: 'Contact', href: '/contact' }
+      { name: 'Home', href: '/' },
+      { name: 'Portfolio', href: '/portfolio' },
+      { name: 'Courses', href: '/courses' },
+      { name: 'Contact', href: '/contact' },
+      { name: 'Team', href: '/team' }
       ];
-    } else if($page.url.pathname === '/contact'){
+        } else if($page.url.pathname === '/contact'){
       navItems = [
-        { name: 'Home', href: '/' },
-        { name: 'Portfolio', href: '/portfolio' },
-        { name: 'Courses', href: '/courses' },
-        { name:'Blog', href:'/blog'}
+      { name: 'Home', href: '/' },
+      { name: 'Portfolio', href: '/portfolio' },
+      { name: 'Courses', href: '/courses' },
+      { name:'Blog', href:'/blog'},
+      { name: 'Team', href: '/team' }
       ];
-    }
+        } else if($page.url.pathname === '/team'){
+      navItems = [
+      { name: 'Home', href: '/' },
+      { name: 'Portfolio', href: '/portfolio' },
+      { name: 'Courses', href: '/courses' },
+      { name:'Blog', href:'/blog'},
+      { name: 'Contact', href: '/contact' }
+      ];
+        }
   }
 
   let dropdownVisible = false;
