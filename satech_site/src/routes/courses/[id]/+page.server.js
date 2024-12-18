@@ -11,7 +11,7 @@ export async function load({ params }) {
 			highlights: [{
 				studentLevel: "Beginner",
 				duration: "3 Months",
-				mode: "Online/Offline (Live Classes)",
+				mode: "Online Classes",
 				certification: "Yes",
 			}
 			],
@@ -83,7 +83,7 @@ export async function load({ params }) {
 				{
 				studentLevel: "Beginner",
 				duration: "3 Months",
-				mode: "Online/Offline (Live Classes)",
+				mode: "Online Classes",
 				certification: "Yes",
 				}
 			],
@@ -160,7 +160,7 @@ export async function load({ params }) {
 				{
 					studentLevel: "Beginner to Intermediate",
 					duration: "2 Months",
-					mode: "Online/Offline (Live Classes)",
+					mode: "Online Classes",
 					certification: "Yes"
 
 				}
@@ -221,7 +221,7 @@ export async function load({ params }) {
 				{
 					studentLevel: "Beginner to Intermediate",
 					duration: "2 Months",
-					mode: "Online/Offline (Live Classes)",
+					mode: "Online Classes",
 					certification: "Yes",
 				}
 			],
@@ -280,7 +280,7 @@ export async function load({ params }) {
 				{
 					studentLevel: "Beginner to Intermediate",
 					duration: "2 Months",
-					mode: "Online/Offline (Live Classes)",
+					mode: "Online Classes",
 					certification: "Yes",
 				}
 			],
@@ -338,7 +338,7 @@ export async function load({ params }) {
 			highlights: [{
 				studentLevel: "Beginner to Intermediate",
 				duration: "2 Months",
-				mode: "Online/Offline (Live Classes)",
+				mode: "Online Classes",
 				certification: "Yes",
 			}],
 			whyChoose: [
@@ -395,7 +395,7 @@ export async function load({ params }) {
 			highlights: [{
 				studentLevel: "Beginner",
 				duration: "3 Months",
-				mode: "Online/Offline (Live Classes)",
+				mode: "Online Classes",
 				certification: "Yes",
 			}],
 			whyChoose: [
@@ -417,7 +417,7 @@ export async function load({ params }) {
 					lessons: [
 						"UV Mapping and Texturing: Learn to map textures onto models for realism and artistic effects.",
 						"Lighting and Rendering: Understand the principles of lighting and create high-quality renders.",
-						"Sculpting and Rigging: Explore sculpting tools for organic modeling and rigging for animation.",
+						"Rigging: Explore tools for rigging for animation.",
 					],
 				},
 				{
@@ -451,7 +451,7 @@ export async function load({ params }) {
 			"highlights": [{
 				"studentLevel": "Beginner",
 				"duration": "4 Months",
-				"mode": "Online/Offline (Live Classes)",
+				"mode": "Online Classes",
 				"certification": "Yes"
 			}],
 			"whyChoose": [
@@ -516,7 +516,7 @@ export async function load({ params }) {
 			"highlights": [{
 				"studentLevel": "Beginner to Intermediate",
 				"duration": "4 Months",
-				"mode": "Online/Offline (Live Classes)",
+				"mode": "Online Classes",
 				"certification": "Yes"
 			}],
 			"whyChoose": [
