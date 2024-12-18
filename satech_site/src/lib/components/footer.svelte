@@ -8,7 +8,7 @@
     { href: "https://youtube.com/@satechstudios", ariaLabel: "YouTube", iconClass: "ph-fill ph-youtube-logo" },
     { href: "https://www.behance.net/satechstudios", ariaLabel: "Behance", iconClass: "ph-fill ph-behance-logo" },
     { href: "https://t.me/SAtechstudios", ariaLabel: "Telegram", iconClass: "ph-fill ph-telegram-logo" },
-    { href: "https://whatsapp.com/channel/0029Vazyb2b1HspugvVgLS1W", ariaLabel: "WhatsApp Channel", iconClass: "ph-fill ph-whatsapp-logo" }
+    { href: "https://wa.me/7708536320", ariaLabel: "WhatsApp Channel", iconClass: "ph-fill ph-whatsapp-logo" }
   ];
 </script>
 

@@ -18,6 +18,13 @@
             title: "Unity Developer",
             image: "/team/naresh.jpeg",
             linkedin: "https://www.linkedin.com/in/naresh-s-k-aaa35724a",
+        },
+        {
+            name: "Mukesh kanna N",
+            title: "Unity developer",
+            image: "/team/mukesh.jpeg",
+            linkedin: "https://www.linkedin.com/in/mukeshkanna75",
+
         }
         // Add more team members here
     ];
