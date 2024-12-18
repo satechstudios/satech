@@ -1,4 +1,7 @@
-<script>
+
+
+/** @type {import('./$types').PageLoad} */
+export async function load({ params }) {
     const Blogs = [
         { id: 1, title: 'Understanding JavaScript Closures', description: 'A deep dive into closures in JavaScript and how to use them effectively.', image: 'https://via.placeholder.com/150'},
         { id: 2, title: 'A Guide to CSS Flexbox', description: 'Learn how to create flexible and responsive layouts using CSS Flexbox.', image: 'https://via.placeholder.com/150' },
@@ -6,19 +9,10 @@
         { id: 4, title: 'Introduction to Node.js', description: 'Get started with Node.js and learn how to build scalable network applications.', image: 'https://via.placeholder.com/150' },
         { id: 5, title: 'Understanding TypeScript', description: 'Learn the basics of TypeScript and how it can improve your JavaScript code.', image: 'https://via.placeholder.com/150' }
     ];
-</script>
-
-<div>
-    <h1 class="text-6xl font-bold text-center p-5">Blog</h1>
-    <div class="flex flex-wrap justify-center">
-        {#each Blogs as blog (blog.id)}
-            <a href={`/blog/${blog.id}`} class="flex flex-col bg-blue-800 rounded-lg m-5 max-w-[300px] cursor-pointer transition-transform duration-300 ease-in-out no-underline text-white">
-                <div class="m-5">
-                    <p class="text-3xl font-medium my-2">{blog.title}</p>
-                    <p class="text-lg">{blog.description}</p>
-                </div>    
-            </a>
-        {/each}
-    </div>
-</div>
-
+    const blog = Blogs.find(blog => blog.id == params.id);
+    if (blog) {
+        return { props: blog  };
+    } else {
+        return { status: 404 };
+    }
+}
