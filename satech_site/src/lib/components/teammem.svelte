@@ -22,7 +22,7 @@
         {
             name: "Mukesh kanna N",
             title: "Unity developer",
-            image: "/team/mukesh.jpeg",
+            image: "/team/mukesh.png",
             linkedin: "https://www.linkedin.com/in/mukeshkanna75",
 
         }

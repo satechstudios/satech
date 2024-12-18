@@ -423,7 +423,7 @@ export async function load({ params }) {
 				{
 					section: "Individual Projects",
 					lessons: [
-						"3D Character Modeling: Design a detailed character ready for animation.",
+						"3D Product Visualization: Create a detailed 3D model of a product for marketing or virtual display.",
 						"Virtual Environment Design: Create a fully rendered 3D environment.",
 					],
 				},
