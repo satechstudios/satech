@@ -62,7 +62,7 @@
         
                         <!-- Portfolio -->
                          {#if member.portfolio}
-                        <a href={member.portfolio} aria-label="Portfolio" class="flex items-center justify-center rounded-full hover:bg-orange-100 dark:hover:bg-orange-500/10 h-10 w-10 transition-all">
+                        <a href={member.portfolio} aria-label="Portfolio" class="flex items-center justify-center rounded-full dark:hover:bg-orange-500/10 h-10 w-10 transition-all">
                             <i class="ph-light ph-suitcase text-orange-300 text-xl"></i>
                         </a>
                         {/if}
