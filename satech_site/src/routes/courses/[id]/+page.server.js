@@ -2,7 +2,6 @@
 export async function load({ params }) {
 
 	const Courses = [
-		// existing courses
 		{
 			id: 1,
 			image: '/courses/Front end.jpg',
@@ -580,7 +579,7 @@ export async function load({ params }) {
 	  
 	const course = Courses.find(course => course.id == params.id);
 
-	// if course is found , return the title of the course
+
 	if (course) {
 		return { props: course };
 	} else {
