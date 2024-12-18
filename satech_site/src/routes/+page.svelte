@@ -72,8 +72,8 @@ let items = [
     </div>
 </section>
 
-<section id="previous" class="p-5 bg-[#111827]">
-    <h2 class="md:text-6xl text-3xl text-center font-bold m-5">Our events</h2>
+<section id="previous" class="sm:p-5 bg-[#111827]">
+    <h2 class="md:text-6xl text-3xl text-center font-bold m-5">Our Speciality</h2>
     <Carousal />
 </section>
 

@@ -3,28 +3,28 @@
 
   let carouselItems = [
     {
-      image: "https://via.placeholder.com/300x200?text=Creative+Designs",
+      image: "/events/ev (1).jpeg",
       alt: "Creative Designs",
       title: "Creative Designs",
       description: "Explore unique and innovative designs that bring your ideas to life.",
       href: "/designs",
     },
     {
-      image: "https://via.placeholder.com/300x200?text=Innovative+Solutions",
+      image: "/events/ev (2).jpeg",
       alt: "Innovative Solutions",
       title: "Innovative Solutions",
       description: "Discover cutting-edge solutions tailored to meet your needs.",
       href: "/solutions",
     },
     {
-      image: "https://via.placeholder.com/300x200?text=Seamless+Integrations",
+      image: "/events/ev (3).jpeg",
       alt: "Seamless Integrations",
       title: "Seamless Integrations",
       description: "Integrate technology effortlessly with streamlined workflows.",
       href: "/integrations",
     },
     {
-      image: "https://via.placeholder.com/300x200?text=Expert+Support",
+      image: "/events/ev (4).jpeg",
       alt: "Expert Support",
       title: "Expert Support",
       description: "Count on our dedicated team for expert guidance and support.",
