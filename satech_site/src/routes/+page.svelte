@@ -19,7 +19,7 @@ let items = [
     href: "/courses",
   },
   {
-    image: "/portfolio.jpg",
+    image: "/team.jpg",
     alt: "Team Image",
     title: "Team",
     description: "Meet the talented individuals who bring ideas to life. Our team is dedicated to delivering exceptional results and creating memorable experiences for every project.",
