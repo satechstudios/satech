@@ -30,7 +30,7 @@
     ];
 </script>
 
-<div class="w-full flex justify-center md:p-5 md:flex-row flex-col" >
+<div class="w-full flex justify-center md:p-5 md:flex-row flex-col flex-wrap" >
     {#each teamMembers as member}
         <div class="w-full md:w-6/12 lg:w-3/12 mb-6 lg:px-4 flex flex-col max-w-[300px] self-center md:self-auto">
             <div class="self-center">
