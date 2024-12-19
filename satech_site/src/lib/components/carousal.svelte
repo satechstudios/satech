@@ -1,36 +1,8 @@
 <script>
   import { onMount, onDestroy } from "svelte";
 
-  let carouselItems = [
-    {
-      image: "/events/ev (1).jpeg",
-      alt: "Creative Designs",
-      title: "Creative Designs",
-      description: "Explore unique and innovative designs that bring your ideas to life.",
-      href: "/designs",
-    },
-    {
-      image: "/events/ev (2).jpeg",
-      alt: "Innovative Solutions",
-      title: "Innovative Solutions",
-      description: "Discover cutting-edge solutions tailored to meet your needs.",
-      href: "/solutions",
-    },
-    {
-      image: "/events/ev (3).jpeg",
-      alt: "Seamless Integrations",
-      title: "Seamless Integrations",
-      description: "Integrate technology effortlessly with streamlined workflows.",
-      href: "/integrations",
-    },
-    {
-      image: "/events/ev (4).jpeg",
-      alt: "Expert Support",
-      title: "Expert Support",
-      description: "Count on our dedicated team for expert guidance and support.",
-      href: "/support",
-    },
-  ];
+  import * as carousaljson from '$lib/json/carousal.json'
+  const carouselItems = carousaljson.default;
 
   let currentIndex = 0;
   let visibleItemsCount = 1;

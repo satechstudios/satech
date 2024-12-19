@@ -1,33 +1,6 @@
 <script>
-    const teamMembers = [
-        {
-            name: "Elanngo Madheswaran",
-            title: "Front End developer",
-            image: "/team/elanngo.jpeg",
-            linkedin: "https://www.linkedin.com/in/elanngomadheswaran/",
-            portfolio: "https://elanngo.vercel.app/"
-        },
-        {
-            name: "Deevith",
-            title: "3D Generalist",
-            image: "/team/deevith.jpg",
-            linkedin: "https://www.linkedin.com/in/deevith-m-1b0729264/",
-        },
-        {
-            name: "Naresh S K",
-            title: "Unity Developer",
-            image: "/team/naresh.jpeg",
-            linkedin: "https://www.linkedin.com/in/naresh-s-k-aaa35724a",
-        },
-        {
-            name: "Mukesh kanna N",
-            title: "Unity developer",
-            image: "/team/mukesh.png",
-            linkedin: "https://www.linkedin.com/in/mukeshkanna75",
-
-        }
-        // Add more team members here
-    ];
+    import * as teamMembersjson from '$lib/json/teammembers.json'
+    const teamMembers = teamMembersjson.default;
 </script>
 
 <div class="w-full flex justify-center md:p-5 md:flex-row flex-col flex-wrap" >

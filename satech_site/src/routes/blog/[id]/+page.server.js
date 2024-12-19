@@ -1,14 +1,10 @@
 
 
 /** @type {import('./$types').PageLoad} */
+import * as blogsjson from '$lib/json/blogs.json'
+    
 export async function load({ params }) {
-    const Blogs = [
-        { id: 1, title: 'Understanding JavaScript Closures', description: 'A deep dive into closures in JavaScript and how to use them effectively.', image: 'https://via.placeholder.com/150'},
-        { id: 2, title: 'A Guide to CSS Flexbox', description: 'Learn how to create flexible and responsive layouts using CSS Flexbox.', image: 'https://via.placeholder.com/150' },
-        { id: 3, title: 'Mastering React Hooks', description: 'An advanced guide to using hooks in React for state and side effects management.', image: 'https://via.placeholder.com/150' },
-        { id: 4, title: 'Introduction to Node.js', description: 'Get started with Node.js and learn how to build scalable network applications.', image: 'https://via.placeholder.com/150' },
-        { id: 5, title: 'Understanding TypeScript', description: 'Learn the basics of TypeScript and how it can improve your JavaScript code.', image: 'https://via.placeholder.com/150' }
-    ];
+    const Blogs = blogsjson.default;
     const blog = Blogs.find(blog => blog.id == params.id);
     if (blog) {
         return { props: blog  };

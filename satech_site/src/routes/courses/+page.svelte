@@ -1,15 +1,6 @@
 <script>
-    let courses = [
-      { id: 1, title: 'Frontend Development', description: 'Master the art of crafting responsive and interactive web interfaces.', image: '/courses/Front end.jpg' },
-      { id: 2, title: 'UI/UX Design', description: 'Learn the principles of user-centered design to create intuitive, engaging, and visually compelling interfaces.', image: '/courses/ui-ux.jpg' },
-      { id: 3, title: 'Photoshop', description: 'Learn professional photo editing, digital painting, and graphic design techniques with Adobe Photoshop. Master layers, masks, retouching, and creative effects to bring your ideas to life.', image: '/courses/Photoshop.jpg' },
-      { id: 4, title: 'After Effects', description: 'Dive into motion graphics and visual effects with Adobe After Effects. This course teaches you animation, compositing, and dynamic visual storytelling for film, video, and online platforms.', image: '/courses/After effects.jpg' },
-      { id: 5, title: 'Illustrator', description: 'Discover the art of vector design with Adobe Illustrator. Create stunning logos, illustrations, and scalable graphics for print and digital media using advanced drawing and typography tools.', image: '/courses/Illustrator.jpg' },
-      { id: 6, title: 'Premiere Pro', description: 'Master video editing with Adobe Premiere Pro. Learn to craft compelling stories, apply transitions, manage audio, and deliver professional-quality videos for any medium.', image: '/courses/premiere Pro.jpeg' },
-      { id: 7, title: '3D Modelling', description: 'Explore 3D modeling techniques to create detailed and realistic objects, characters, and environments. Use industry-standard tools to bring your imagination to the third dimension.', image: '/courses/3d-modeling.jpg' },
-      { id: 8, title: 'AR/VR', description: 'Step into the future with AR/VR development. Learn to build immersive augmented and virtual reality experiences using cutting-edge platforms and tools.', image: '/courses/AR-VR-.jpg' },
-      { id: 9, title: 'Game Design and Development', description: 'Unlock the world of game creation by mastering design principles, scripting, and prototyping. This course covers everything from concept art to interactive gameplay mechanics.', image: '/courses/Game Design And Development.png' }
-    ];
+    import * as coursesjson from '$lib/json/courses.json'
+    const courses = coursesjson.default;
 </script>
 
 <div class="selection:bg-white selection:text-blue-700">

@@ -1,30 +1,7 @@
 <script>
-    
-    const data1 = [
-        { src: "/projects/prj1.png", description: "Project 1 Description" },
-        { src: "/projects/prj2.png" },
-        { src: "/projects/prj3.png" },
-        { src: "/projects/prj4.png" },
-        { src: "/projects/prj5.png" },
-        { src: "/projects/prj6.png" },
-        { src: "/projects/prj7.png" },
-        { src: "/projects/prj8.png" },
-        { src: "/projects/prj9.png" },
-        { src: "/projects/prj10.png" }
-    ];
-
-    const data2 = [
-        { src: "/portfolio/pr1.png" , description: "Project 1 Description" },
-        { src: "/portfolio/pr2.png" },
-        { src: "/portfolio/pr3.png" },
-        { src: "/portfolio/pr4.png" },
-        { src: "/portfolio/pr5.png" },
-        { src: "/portfolio/pr6.png" },
-        { src: "/portfolio/pr7.png" },
-        { src: "/portfolio/pr8.png" },
-        { src: "/portfolio/pr9.png" },
-        { src: "/portfolio/pr10.png" }
-    ];
+    import * as portfoliojson from '$lib/json/portfolio.json'
+    const data1 = portfoliojson.data1;
+    const data2 = portfoliojson.data2;
 </script>
 
 <div class="md:m-5 md:p-5 mt-5">
