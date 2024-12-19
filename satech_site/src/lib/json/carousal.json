@@ -26,5 +26,19 @@
         "title": "Expert Support",
         "description": "Count on our dedicated team for expert guidance and support.",
         "href": "/support"
+    },
+    {
+        "image": "/events/ev (5).jpeg",
+        "alt": "Advanced Analytics",
+        "title": "Advanced Analytics",
+        "description": "Leverage data-driven insights to make informed decisions.",
+        "href": "/analytics"
+    },
+    {
+        "image": "/events/ev (6).jpeg",
+        "alt": "Custom Solutions",
+        "title": "Custom Solutions",
+        "description": "Get personalized solutions designed to fit your unique requirements.",
+        "href": "/custom-solutions"
     }
 ]
