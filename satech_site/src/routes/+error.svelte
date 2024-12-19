@@ -2,11 +2,12 @@
     export function load({ error }) {
       return { status: error.status, message: error.message };
     }
+    
   </script>
   
-  <script>
-    export let status;
-    export let message;
+  <script lang="ts">
+    export let status: number;
+    export let message: string;
   </script>
   
   <div class="h-screen flex flex-col justify-center"> 
