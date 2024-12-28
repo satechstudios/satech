@@ -11,9 +11,9 @@
         {#each courses as course (course.id)}
             <a href={`/courses/${course.id}`} class="flex flex-col bg-blue-800 rounded-lg m-5 max-w-[300px] cursor-pointer transition-transform duration-300 ease-in-out no-underline text-white">
                 <div>
-                    <img src={course.image} alt={course.title} class="rounded-t-lg">
+                    <img src={course.image} alt={course.name} class="rounded-t-lg">
                     <div class="m-5">
-                        <p class="text-3xl font-medium my-2">{course.title}</p>
+                        <p class="text-3xl font-medium my-2">{course.name}</p>
                         <p class="text-lg">{course.description}</p>
                     </div>
                 </div>
