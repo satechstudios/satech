@@ -51,13 +51,13 @@ let items = [
         <img src="women-working.png" alt="woman working" class="lg:w-full md:min-w-96 sm:min-w-60 w-40 self-center">
     </div>
     <div class="max-w-screen-xl mx-auto sm:p-5 self-center">
-        <p class="text-center md:text-6xl text-3xl uppercase font-bold p-5 m-5 text-blue-400">About Us</p>
+        <p class="text-center md:text-4xl text-2xl uppercase font-bold p-5 m-5 text-blue-400">About Us</p>
         <p class="sm:text-center md:text-xl text-md sm:p-5 sm:m-5 my-3 text-justify">We specialize in offering courses in the dynamic field of design, covering domains like AR/VR, Photoshop, After Effects, Premiere Pro, UI/UX, 3D modeling, gaming, and more. Additionally, we provide professional freelance services with a team of experienced and creative individuals dedicated to delivering stunning outputs that meet the expectations of the modern generation.</p>
     </div>
 </div>
 
 <section class="flex flex-col" id="services">
-    <p class="sm:text-6xl text-3xl font-bold self-center m-5 p-5">Services</p>
+    <p class="sm:text-4xl text-2xl font-bold self-center m-5 p-5">Services</p>
     <div class="flex flex-col md:flex-row justify-center">
         {#each items as item}
             <div class="bg-white sm:w-80 w-54 flex flex-col sm:m-5 m-3 rounded-md self-center hover:-translate-y-5 group">
@@ -73,7 +73,7 @@ let items = [
 </section>
 
 <section id="previous" class="sm:p-5 bg-[#111827]">
-    <h2 class="md:text-6xl text-3xl text-center font-bold m-5">Our Speciality</h2>
+    <h2 class="md:text-4xl text-2xl text-center font-bold m-5">Our Speciality</h2>
     <Carousal />
 </section>
 
@@ -84,7 +84,7 @@ let items = [
     </div>
     <div class="w-full">
         <div class="flex flex-col">
-            <p class="xl:text-6xl text-3xl font-bold uppercase self-center m-5">Contact Us</p>
+            <p class="xl:text-4xl text-2xl font-bold uppercase self-center m-5">Contact Us</p>
             <div class="m-5 sm:p-5 self-center">
                 <table class="w-full">
                     <tbody>
@@ -93,7 +93,7 @@ let items = [
                                 <i class="ph-light ph-whatsapp-logo xl:text-6xl text-3xl"></i>
                             </td>
                             <td class="text-left sm:p-5 m-2 sm:m-0">
-                                <p class="xl:text-5xl sm:text-xl text-sm">+91 7708536320</p>
+                                <p class="xl:text-3xl sm:text-xl text-sm">+91 7708536320</p>
                             </td>
                         </tr>
                         <tr>
@@ -101,7 +101,7 @@ let items = [
                                 <i class="ph-light ph-envelope-open xl:text-6xl text-3xl"></i>
                             </td>
                             <td class="text-left sm:p-5 m-2 sm:m-0">
-                                <p class="xl:text-5xl sm:text-xl text-sm">satechstudios@gmail.com</p>
+                                <p class="xl:text-3xl sm:text-xl text-sm">satechstudios@gmail.com</p>
                             </td>
                         </tr>
                     </tbody>
