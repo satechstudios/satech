@@ -1,6 +1,20 @@
 <script>
   let domains = [
     {
+      name: "Non-Technical",
+      members: [
+        { name: "Sharmatha V", role: "Human Resource", linkedin: "https://www.linkedin.com/in/sharmatha-venkateswaran" },
+    
+      ],
+    },
+    {
+      name: "Marketing",
+      members: [
+        { name: "Arulesh P", role: "Bussiness Development Associate", linkedin: "https://www.linkedin.com/in/aruleshpp2001/" },
+        { name: "Samyuktha", role: "Digital Marketer", linkedin: "https://www.linkedin.com/in/samyuktha-j-788899264/" },
+      ],
+    },
+    {
       name: "Unity Development",
       members: [
         { name: "Naresh S K", role: "Unity Developer", linkedin: "https://www.linkedin.com/in/naresh-s-k-aaa35724a" },
@@ -20,6 +34,8 @@
         { name: "Sanjay K", role: "Graphic Designer", linkedin: "https://www.linkedin.com/" },
       ],
     },
+    
+    
     {
       name: "Full Stack Development",
       members: [
