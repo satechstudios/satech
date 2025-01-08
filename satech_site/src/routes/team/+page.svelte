@@ -1,7 +1,7 @@
 <script>
   let domains = [
     {
-      name: "Unity Develpoment",
+      name: "Unity Development",
       members: [
         { name: "Naresh S K", role: "Unity Developer", linkedin: "https://www.linkedin.com/in/naresh-s-k-aaa35724a" },
         { name: "Mukesh kanna N", role: "Unity Developer", linkedin: "https://www.linkedin.com/in/mukeshkanna75" },
@@ -47,26 +47,26 @@
 </script>
 
 <div class="selection:bg-white selection:text-blue-700">
-  <p class="m-5 p-5 text-center font-bold md:text-6xl sm:text-3xl text-xl uppercase" id="top">Our Team</p>
-
+  <p class="m-5 p-5 text-center font-bold md:text-6xl sm:text-3xl text-2xl uppercase" id="top">Our Team</p>
 
   <div class="flex flex-col items-center space-y-6">
-    <!-- Domain Names with Team Members -->
     {#each domains as domain, index}
       <div class="w-full flex flex-col items-center">
         <!-- Domain Button -->
         <button
-          class="w-3/4 px-4 py-2 bg-gradient-to-r from-blue-500 to-teal-500 text-white rounded-lg shadow-md hover:from-blue-600 hover:to-teal-600 transition-transform transform hover:scale-105"
+          class="w-full sm:w-3/4 px-4 py-2 bg-gradient-to-r from-blue-500 to-teal-500 text-white rounded-lg shadow-md hover:from-blue-600 hover:to-teal-600 transition-transform transform hover:scale-105"
           on:click={() => toggleDomain(index)}
         >
           {domain.name}
         </button>
 
-        <!-- Members Display (Conditional) -->
+        <!-- Team Members -->
         {#if activeDomain === index}
-          <div class="mt-4 flex flex-row justify-center space-x-4">
+          <div class="mt-4 flex flex-wrap md:flex-row sm:flex-col justify-center space-y-4 sm:space-y-4 md:space-y-0 md:space-x-4">
             {#each domain.members as member}
-              <div class="w-64 p-4 bg-white border-l-4 border-teal-500 shadow-lg rounded-lg hover:shadow-xl transform hover:scale-105 transition-transform duration-200">
+              <div
+                class="w-64 p-4 bg-white border-l-4 border-teal-500 shadow-lg rounded-lg hover:shadow-xl transform hover:scale-105 transition-transform duration-200"
+              >
                 <h3 class="text-lg font-semibold text-gray-700">{member.name}</h3>
                 <p class="text-gray-500">{member.role}</p>
                 <a
@@ -85,7 +85,6 @@
     {/each}
   </div>
 </div>
-
 
 <style>
   @import "https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css";
