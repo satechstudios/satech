@@ -1,7 +1,7 @@
 <script>
   let domains = [
     {
-      name: "Non-Technical",
+      name: "Human Resource",
       members: [
         { name: "Sharmatha V", role: "Human Resource", linkedin: "https://www.linkedin.com/in/sharmatha-venkateswaran" },
     
@@ -11,7 +11,7 @@
       name: "Marketing",
       members: [
         { name: "Arulesh P", role: "Bussiness Development Associate", linkedin: "https://www.linkedin.com/in/aruleshpp2001/" },
-        { name: "Samyuktha", role: "Digital Marketer", linkedin: "https://www.linkedin.com/in/samyuktha-j-788899264/" },
+        { name: "Samyuktha J", role: "Digital Marketer", linkedin: "https://www.linkedin.com/in/samyuktha-j-788899264/" },
       ],
     },
     {
