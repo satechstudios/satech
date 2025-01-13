@@ -149,7 +149,7 @@
     {
         "id": 3,
         "image": "/courses/Photoshop.jpg",
-        "name": "Photoshop Mastery Course",
+        "name": "Graphic Designing",
         "description": "Transform your creative ideas into stunning visuals with our Photoshop Mastery Course. This course equips beginners and intermediate learners with the tools and techniques to design professional-grade graphics, retouch images, and create digital artwork.",
         "highlights": [
             {
@@ -208,7 +208,7 @@
     {
         "id": 4,
         "image": "/courses/After effects.jpg",
-        "name": "After Effects Course",
+        "name": "Auto Card Cource",
         "description": "Bring your ideas to life with our After Effects Course. Learn motion graphics, visual effects, and animations to create engaging videos and content for various platforms.",
         "highlights": [
             {
@@ -266,7 +266,7 @@
     {
         "id": 5,
         "image": "/courses/Illustrator.jpg",
-        "name": "Illustrator Course",
+        "name": "Full Stack Development Course",
         "description": "Our Illustrator Course is perfect for those who want to create stunning vector designs, logos, and professional illustrations. You’ll master Adobe Illustrator, the industry-standard tool, and develop a strong understanding of vector-based design principles. This course is ideal for beginners and intermediate learners, with practical projects to build your portfolio.",
         "highlights": [
             {
@@ -323,66 +323,8 @@
     },
     {
         "id": 6,
-        "image": "/courses/premiere Pro.jpeg",
-        "name": "Premiere Pro Course",
-        "description": "Our Premiere Pro Course is tailored for individuals who want to master video editing and post-production. You’ll learn to create professional videos for various platforms, from promotional content to cinematic montages. This course is perfect for beginners aiming to enter the video production industry.",
-        "highlights": [
-            {
-                "studentLevel": "Beginner to Intermediate",
-                "duration": "2 Months",
-                "mode": "Online Classes",
-                "certification": "Yes"
-            }
-        ],
-        "whyChoose": [
-            "Gain practical skills to produce professional videos from start to finish.",
-            "Learn advanced editing techniques from experienced mentors.",
-            "Build an impressive portfolio to showcase your expertise."
-        ],
-        "syllabus": [
-            {
-                "section": "Basics of Premiere Pro",
-                "lessons": [
-                    "Introduction to Adobe Premiere Pro and its interface",
-                    "Importing media and organizing files in the project panel",
-                    "Basic video editing: trimming, splitting, and arranging clips on the timeline"
-                ]
-            },
-            {
-                "section": "Advanced Editing Techniques",
-                "lessons": [
-                    "Applying effects, transitions, and advanced color grading",
-                    "Audio editing, synchronization, and mixing",
-                    "Exporting videos for different platforms and formats"
-                ]
-            },
-            {
-                "section": "Projects",
-                "lessons": [
-                    "Edit a short promotional video for a brand",
-                    "Create a cinematic montage using advanced techniques"
-                ]
-            }
-        ],
-        "faq": [
-            {
-                "question": "Is this course suitable for absolute beginners?",
-                "answer": "Yes, this course is designed for beginners with no prior experience in video editing."
-            },
-            {
-                "question": "Do I need a high-end computer for this course?",
-                "answer": "While not mandatory, a computer with good specifications is recommended for smooth video editing."
-            },
-            {
-                "question": "Will I receive any course materials?",
-                "answer": "Yes, students will receive practice files and guides to follow along with the course."
-            }
-        ]
-    },
-    {
-        "id": 7,
         "image": "/courses/3d-modeling.jpg",
-        "name": "3D Modelling Course",
+        "name": "Blender Modelling nad Animation",
         "description": "Step into the world of 3D design with our 3D Modeling Course. From creating realistic models to mastering texturing and rendering, this course covers everything needed for a successful career in 3D design.",
         "highlights": [
             {
@@ -438,7 +380,7 @@
         ]
     },
     {
-        "id": 8,
+        "id": 7,
         "image": "/courses/AR-VR-.jpg",
         "name": "AR/VR Development Course",
         "description": "Immerse yourself in the future of technology with our AR/VR Development Course. Learn to create interactive augmented and virtual reality experiences for applications in gaming, education, and beyond.",
@@ -505,7 +447,7 @@
         ]
     },
     {
-        "id": 9,
+        "id": 8,
         "image": "/courses/Game Design And Development.png",
         "name": "Game Design and Development Course",
         "description": "Step into the exciting world of game creation with our Game Design and Development Course. This course equips you with the knowledge and tools to design, develop, and deploy your own games, whether for mobile, PC, or consoles.",
