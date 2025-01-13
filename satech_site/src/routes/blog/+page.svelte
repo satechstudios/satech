@@ -2,6 +2,12 @@
     import * as blogsjson from '$lib/json/blogs.json';
     const Blogs = blogsjson.default;
   </script>
+
+<svelte:head>
+  <title>Blog - SATech Studios</title>
+  <meta name="description" content="Read our latest blog posts on various topics, including industry insights, tips, and trends." />
+</svelte:head>
+
   
   <main class="p-5">
     <h1 class="text-4xl md:text-6xl font-bold text-center mb-10 text-black">Blog</h1>

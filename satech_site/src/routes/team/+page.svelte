@@ -63,6 +63,12 @@
   };
 </script>
 
+<svelte:head>
+  <title>Our Team - SATech Studios</title>
+  <meta name="description" content="Meet our dedicated team of professionals specializing in human resources, marketing, development, design, and more." />
+</svelte:head>
+
+
 <main class="selection:bg-white selection:text-blue-700">
   <h1 class="m-5 p-5 text-center font-bold md:text-6xl sm:text-3xl text-2xl uppercase" id="top">
     Meet Our Team

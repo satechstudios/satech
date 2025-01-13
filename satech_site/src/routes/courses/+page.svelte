@@ -2,6 +2,12 @@
     import * as coursesjson from '$lib/json/courses.json';
     const courses = coursesjson.default;
   </script>
+
+<svelte:head>
+  <title>Our Course - SATech Studios</title>
+  <meta name="description" content="Discover our range of courses designed to enhance your skills in various domains. Learn from the best with our expert-led programs." />
+</svelte:head>
+
   
   <main class="selection:bg-white selection:text-blue-700">
     <h1 class="m-5 p-5 text-center font-bold md:text-6xl sm:text-3xl text-xl uppercase" id="top">Our Courses</h1>

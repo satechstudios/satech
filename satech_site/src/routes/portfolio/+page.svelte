@@ -3,6 +3,12 @@
     const data1 = portfoliojson.data1;
     const data2 = portfoliojson.data2;
   </script>
+
+<svelte:head>
+  <title>Portfolio - SATech Studios</title>
+  <meta name="description" content="Explore our portfolio of UI/UX designs, graphic designs, and 3D models showcasing creativity and innovation." />
+</svelte:head>
+
   
   <main class="md:m-5 md:p-5 mt-5">
     <h1 class="md:text-6xl text-3xl text-center uppercase font-bold">Portfolio</h1>

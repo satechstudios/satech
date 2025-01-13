@@ -51,6 +51,12 @@
   };
 </script>
 
+<svelte:head>
+  <title>Contact Us - SATech Studios</title>
+  <meta name="description" content="Get in touch with us through our contact form. Follow us on social media and reach out to our team for more information." />
+</svelte:head>
+
+
 <main class="flex flex-col items-center md:p-5 pt-5">
   <h1 class="text-4xl font-bold text-center">Follow Us</h1>
   <section class="flex flex-wrap justify-center mt-5">
