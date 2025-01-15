@@ -105,7 +105,7 @@
                 <i class="ph-light ph-whatsapp-logo xl:text-6xl text-3xl"></i>
               </td>
               <td class="text-left sm:p-5 m-2 sm:m-0">
-                <p class="xl:text-3xl sm:text-xl text-sm">+91 7708536320</p>
+                <p class="xl:text-3xl sm:text-xl text-sm">+91 75581 97152</p>
               </td>
             </tr>
             <tr>
