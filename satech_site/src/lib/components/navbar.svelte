@@ -3,7 +3,7 @@
 
   let navItems = $state([
     { name: 'Home', href: '/#top-section' },
-    { name: 'About', href: '/about' },
+    { name: 'About', href: '/About' },
     { name: 'Portfolio', href: '/portfolio' },
     { name: 'Courses', href: '/courses' },
     { name: 'Blog', href: '/blog' },
@@ -15,7 +15,7 @@
     if ($page.url.pathname === '/') {
       navItems = [
         { name: 'Home', href: '/#top-section' },
-        { name: 'About', href:'/about' },
+        { name: 'About', href:'/About' },
         { name: 'Portfolio', href: '/portfolio' },
         { name: 'Courses', href: '/courses' },
         { name: 'Blog', href: '/blog' },
