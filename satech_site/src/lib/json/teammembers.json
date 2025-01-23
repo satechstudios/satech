@@ -1,0 +1,70 @@
+{
+    "domains": [
+      {
+        "name": "AR/VR & Game Development",
+        "members": [
+          {
+            "name": "Naresh S K",
+            "role": "Unity Developer",
+            "linkedin": "https://www.linkedin.com/in/naresh-s-k-aaa35724a"
+          },
+          {
+            "name": "Mukesh kanna N",
+            "role": "Unity Developer",
+            "linkedin": "https://www.linkedin.com/in/mukeshkanna75"
+          }
+        ]
+      },
+      {
+        "name": "3D Animation",
+        "members": [
+          {
+            "name": "Deevith",
+            "role": "3D Generalist",
+            "linkedin": "https://www.linkedin.com/in/deevith-m-1b0729264/"
+          }
+        ]
+      },
+      {
+        "name": "Full Stack Development",
+        "members": [
+          {
+            "name": "Elanngo Madheswaran",
+            "role": "Front End Developer",
+            "linkedin": "https://www.linkedin.com/in/elanngomadheswaran/"
+          },
+          {
+            "name": "Kamini T",
+            "role": "Full Stack Developer",
+            "linkedin": "https://www.linkedin.com/in/kamini-t-636370243/"
+          },
+          {
+            "name": "Kanisha M",
+            "role": "Full Stack Developer",
+            "linkedin": "https://www.linkedin.com/in/kanisha-m-3394a324a/"
+          }
+        ]
+      },
+      {
+        "name": "Mobile App Development",
+        "members": [
+          {
+            "name": "Jeevananthan B",
+            "role": "Flutter App Developer",
+            "linkedin": "https://www.linkedin.com/in/elanngomadheswaran/"
+          },
+          {
+            "name": "Deepa S V",
+            "role": "Flutter App Developer",
+            "linkedin": "https://www.linkedin.com/in/deepa-s-v-0913a1240/"
+          },
+          {
+            "name": "Kuppulakshmi K",
+            "role": "Flutter App Developer",
+            "linkedin": "https://www.linkedin.com/in/kuppulakshmi-k-2844a224a/"
+          }
+        ]
+      }
+    ]
+  }
+  
