@@ -80,7 +80,7 @@
         We specialize in offering courses covering AR/VR, Photoshop, After
         Effects, UI/UX, 3D modeling, gaming, and more. Additionally, our
         experienced and creative freelance team delivers stunning outputs
-        meeting modern expectations.
+        meeting modern .
       </p>
     </div>
   </div>
