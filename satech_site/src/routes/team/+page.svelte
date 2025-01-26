@@ -38,18 +38,12 @@
     {
       name: "Full Stack Development",
       members: [
-        { name: "Elanngo Madheswaran", role: "Front End Developer", linkedin: "https://www.linkedin.com/in/elanngomadheswaran/" },
-        { name: "Kamini", role: "Full Stack Developer", linkedin: "https://www.linkedin.com/in/kamini-t-636370243/" },
-        { name: "Kanisha M", role: "Full Stack Developer", linkedin: "https://www.linkedin.com/in/kanisha-m-3394a324a/" },
         { name: "Chidambaram S", role: "Frontend Developer", linkedin: "https://www.linkedin.com/in/chidambarams/" },
       ],
     },
     {
       name: "Mobile App Development",
       members: [
-        { name: "Jeevananthan B", role: "Flutter App Developer", linkedin: "https://www.linkedin.com/in/jeevananthan-2b94a324a/" },
-        { name: "Deepa S V", role: "Flutter App Developer", linkedin: "https://www.linkedin.com/in/deepa-s-v-0913a1240/" },
-        { name: "Kuppulakshmi K", role: "Flutter app Developer", linkedin: "https://www.linkedin.com/in/kuppulakshmi-k-2844a224a/" },
       ],
     },
   
