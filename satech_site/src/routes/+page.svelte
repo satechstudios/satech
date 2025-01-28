@@ -51,7 +51,6 @@
     </a>
   </div>
 </div>
-
 <section class="bg-[#111827] text-white py-12">
   <div class="max-w-screen-xl mx-auto px-4 text-center">
     <h2 class="text-3xl sm:text-4xl font-bold mb-6 text-blue-400">
@@ -94,6 +93,8 @@
     </div>
   </div>
 </section>
+
+
 
 <section class="flex flex-col" id="services">
   <h2 class="sm:text-4xl text-2xl font-bold self-center m-5 p-5">Services</h2>
