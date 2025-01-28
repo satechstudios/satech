@@ -5,71 +5,28 @@
     { name: 'Home', href: '/#top-section' },
     { name: 'About', href: '/About' },
     { name: 'Portfolio', href: '/portfolio' },
-    { name: 'Courses', href: '/courses' },
+    {
+      name: 'Courses',
+      href: '/courses',
+      dropdown: [
+         { name: 'Frontend Development', href: '/courses/1' },
+      { name: 'UI/UX Design', href: '/courses/2' },
+      { name: 'Graphic Design', href: '/courses/3' },
+      { name: 'Auto CAD', href: '/courses/4' },
+      { name: 'Full Stack Development', href: '/courses/5' },
+      { name: 'Blender Modelling and Animation', href: '/courses/6' },
+      { name: 'AR/VR Development', href: '/courses/7' },
+      { name: 'Game Design and Development', href: '/courses/8' }
+      ]
+    },
     { name: 'Blog', href: '/blog' },
     { name: 'Contact', href: '/contact' }
   ]);
-
-  // Update navigation items based on the current page
-  $effect(() => {
-    if ($page.url.pathname === '/') {
-      navItems = [
-        { name: 'Home', href: '/#top-section' },
-        { name: 'About', href:'/About' },
-        { name: 'Portfolio', href: '/portfolio' },
-        { name: 'Courses', href: '/courses' },
-        { name: 'Blog', href: '/blog' },
-        { name: 'Contact', href: '/contact' },
-        { name: 'Team', href: '/team' }
-      ];
-    } else if ($page.url.pathname === '/portfolio') {
-      navItems = [
-        { name: 'Home', href: '/' },
-        { name: 'Courses', href: '/courses' },
-        { name: 'Blog', href: '/blog' },
-        { name: 'Contact', href: '/contact' },
-        { name: 'Team', href: '/team' }
-      ];
-    } else if ($page.url.pathname === '/courses') {
-      navItems = [
-        { name: 'Home', href: '/' },
-        { name: 'Portfolio', href: '/portfolio' },
-        { name: 'Blog', href: '/blog' },
-        { name: 'Contact', href: '/contact' },
-        { name: 'Team', href: '/team' }
-      ];
-    } else if ($page.url.pathname === '/blog') {
-      navItems = [
-        { name: 'Home', href: '/' },
-        { name: 'Portfolio', href: '/portfolio' },
-        { name: 'Courses', href: '/courses' },
-        { name: 'Contact', href: '/contact' },
-        { name: 'Team', href: '/team' }
-      ];
-    } else if ($page.url.pathname === '/contact') {
-      navItems = [
-        { name: 'Home', href: '/' },
-        { name: 'Portfolio', href: '/portfolio' },
-        { name: 'Courses', href: '/courses' },
-        { name: 'Blog', href: '/blog' },
-        { name: 'Team', href: '/team' }
-      ];
-    } else if ($page.url.pathname === '/team') {
-      navItems = [
-        { name: 'Home', href: '/' },
-        { name: 'Portfolio', href: '/portfolio' },
-        { name: 'Courses', href: '/courses' },
-        { name: 'Blog', href: '/blog' },
-        { name: 'Contact', href: '/contact' }
-      ];
-    }
-  });
 
   let dropdownVisible = $state(false);
   let isNavbarOpen = $state(false); // Tracks whether the mobile navbar is open
 
   const toggleDropdown = (itemName) => {
-    // Toggle dropdown visibility for the "Services" item
     if (dropdownVisible === itemName) {
       dropdownVisible = null;
     } else {
@@ -156,21 +113,21 @@
               <!-- Dropdown Menu -->
               {#if dropdownVisible === item.name}
                 <div
-                  class="absolute left-0 z-10 mt-2 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
+    class="absolute left-0 z-10 mt-2 font-normal bg-black divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
                 >
-                  <ul class="py-2 text-sm text-gray-700 dark:text-gray-400">
-                    {#each item.items as subItem}
-                      <li>
-                        <a
-                          href={subItem.href}
-                          onclick={closeNavbar}
-                          class="block px-4 py-2 hover:bg-gray-600 text-white"
-                        >
-                          {subItem.name}
-                        </a>
-                      </li>
-                    {/each}
-                  </ul>
+                   <ul class="py-2 text-sm text-white">
+      {#each item.dropdown as subItem}
+        <li>
+          <a
+            href={subItem.href}
+            onclick={closeNavbar}
+            class="block px-4 py-2 hover:bg-gray-600 text-white"
+          >
+            {subItem.name}
+          </a>
+        </li>
+      {/each}
+    </ul>
                 </div>
               {/if}
             {/if}
