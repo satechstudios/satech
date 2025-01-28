@@ -12,15 +12,13 @@
         { "src": "/projects/prj10.png" }
     ],
     "data2": [
-        { "src": "/portfolio/pr1.png", "description": "Project 1 Description" },
-        { "src": "/portfolio/pr2.png" },
-        { "src": "/portfolio/pr3.png" },
-        { "src": "/portfolio/pr4.png" },
-        { "src": "/portfolio/pr5.png" },
-        { "src": "/portfolio/pr6.png" },
-        { "src": "/portfolio/pr7.png" },
-        { "src": "/portfolio/pr8.png" },
-        { "src": "/portfolio/pr9.png" },
-        { "src": "/portfolio/pr10.png" }
-    ]
+      { "src": "/pics/Axe.jpg", "description": "Project 1 Description" },
+        { "src": "/pics/barrel.png" },
+        { "src": "/pics/carrier.png" },
+        { "src": "/pics/Evee.png" },
+        { "src": "/pics/gunman.png" },
+        { "src": "/pics/hero.png" },
+        { "src": "/pics/room.png" },
+        { "src": "/pics/spaceship.png" },
+        { "src": "/pics/village.png" }    ]
 }
