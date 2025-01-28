@@ -52,18 +52,48 @@
   </div>
 </div>
 
-<div class="bg-[#111827] flex lg:flex-row flex-col-reverse p-5" id="about">
-  <div class="flex w-full justify-center">
-    <img src="women-working.png" alt="Woman working on a project" class="lg:w-full md:min-w-96 sm:min-w-60 w-40 self-center">
-  </div>
-  <div class="max-w-screen-xl mx-auto sm:p-5 self-center">
-    <h2 class="text-center md:text-4xl text-2xl uppercase font-bold p-5 m-5 text-blue-400">About Us</h2>
-    <p class="sm:text-center md:text-xl text-md sm:p-5 sm:m-5 my-3 text-justify">
-      We specialize in offering courses covering AR/VR, Photoshop, After Effects, UI/UX, 3D modeling, gaming, and more. 
-      Additionally, our experienced and creative freelance team delivers stunning outputs meeting modern expectations.
+<section class="bg-[#111827] text-white py-12">
+  <div class="max-w-screen-xl mx-auto px-4 text-center">
+    <h2 class="text-3xl sm:text-4xl font-bold mb-6 text-blue-400">
+      Take the Next Step Toward Your Personal and Professional Goals
+    </h2>
+    <p class="text-md sm:text-xl mb-6">
+      Elevate your career and life with Pep Software. Our training programs provide the tools and knowledge you need to achieve your goals. Join us and unlock your full potential
     </p>
+
+    <!-- Explore Courses Button -->
+    <a
+      href="/courses"
+      class="inline-block py-3 px-6 bg-blue-500 text-white font-medium rounded-lg hover:bg-blue-600 transition duration-300 mb-8"
+    >
+      Explore Courses
+    </a>
+
+    <!-- Courses Section -->
+    <div class="grid sm:grid-cols-3 grid-cols-1 gap-6">
+      <!-- Wireframing -->
+      <div class="bg-gray-800 p-6 rounded-lg">
+        <h3 class="text-xl font-semibold text-blue-400 mb-4">Wireframing</h3>
+        <p class="text-gray-300 mb-4">Learn how to create effective wireframes for web and mobile apps.</p>
+        <a href="/courses/wireframing" class="text-blue-500 hover:text-blue-700">Learn More</a>
+      </div>
+
+      <!-- Developer -->
+      <div class="bg-gray-800 p-6 rounded-lg">
+        <h3 class="text-xl font-semibold text-blue-400 mb-4">Developer</h3>
+        <p class="text-gray-300 mb-4">Take your coding skills to the next level with expert-led development courses.</p>
+        <a href="/courses/developer" class="text-blue-500 hover:text-blue-700">Learn More</a>
+      </div>
+
+      <!-- Still-life Graphic Design Studio -->
+      <div class="bg-gray-800 p-6 rounded-lg">
+        <h3 class="text-xl font-semibold text-blue-400 mb-4">Still-life Graphic Design Studio</h3>
+        <p class="text-gray-300 mb-4">Master the art of still-life photography and graphic design.</p>
+        <a href="/courses/still-life-graphic-design-studio" class="text-blue-500 hover:text-blue-700">Learn More</a>
+      </div>
+    </div>
   </div>
-</div>
+</section>
 
 <section class="flex flex-col" id="services">
   <h2 class="sm:text-4xl text-2xl font-bold self-center m-5 p-5">Services</h2>
