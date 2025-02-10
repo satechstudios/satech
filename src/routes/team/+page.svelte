@@ -37,7 +37,7 @@
       name: "Full Stack Development",
       members: [
         { name: "Chidambaram S", role: "Frontend Developer", linkedin: "https://www.linkedin.com/in/chidambarams/" },
-        { name: "VishnuvardhanS", role: "Frontend Developer", linkedin: "https://www.linkedin.com/in/vishnuvardhan-s-1b0335308/" },
+        { name: "Vishnuvardhan S", role: "Frontend Developer", linkedin: "https://www.linkedin.com/in/vishnuvardhan-s-1b0335308/" },
      
       ],
     },
