@@ -15,7 +15,6 @@
       name: "AR/VR & Game Development",
       members: [
         { name: "Naresh S K", role: "Unity Developer", linkedin: "https://www.linkedin.com/in/naresh-s-k-aaa35724a" },
-        { name: "Mukesh kanna N", role: "Unity Developer", linkedin: "https://www.linkedin.com/in/mukeshkanna75" },
       ],
     },
     {

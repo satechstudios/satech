@@ -21,7 +21,17 @@
     },
     { name: 'Blog', href: '/blog' },
     { name: 'Contact', href: '/contact' },
-    { name: 'Team', href: '/team' }
+    { name: 'Team', href: '/team' },
+    { name: 'Service', 
+    href: '/contact',
+     dropdown: [
+         { name: '3D Product Design', href: '/contact' },
+      { name: '3D Animation', href: '/contact' },
+      { name: 'Website Development', href: '/contact' },
+      { name: 'App Development', href: '/contact' },
+      { name: 'AR/VR Development', href: '/contact' }
+      ]
+      }
   ]);
 
   let dropdownVisible = $state(false);
