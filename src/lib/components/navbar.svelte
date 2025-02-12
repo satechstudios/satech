@@ -29,7 +29,7 @@
       { name: '3D Animation', href: '/contact' },
       { name: 'Website Development', href: '/contact' },
       { name: 'App Development', href: '/contact' },
-      { name: 'AR/VR Development', href: '/contact' }
+      { name: 'AR/VRDevelopment', href: '/contact' }
       ]
       }
   ]);
