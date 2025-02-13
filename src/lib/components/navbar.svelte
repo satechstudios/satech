@@ -25,11 +25,11 @@
     { name: 'Service', 
     href: '/contact',
      dropdown: [
-         { name: '3D Product Design', href: '/contact' },
-      { name: '3D Animation', href: '/contact' },
-      { name: 'Website Development', href: '/contact' },
-      { name: 'App Development', href: '/contact' },
-      { name: 'AR/VRDevelopment', href: '/contact' }
+         { name: '3D Animation', href: '/contact' },
+      { name: '3D Production', href: '/contact' },
+      { name: 'AR/VR Development', href: '/contact' },
+      { name: 'CAD Design', href: '/contact' },
+      { name: 'Architecture Visualization', href: '/contact' }
       ]
       }
   ]);
@@ -124,7 +124,7 @@
               <!-- Dropdown Menu -->
               {#if dropdownVisible === item.name}
                 <div
-    class="absolute left-0 z-10 mt-2 font-normal bg-black divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
+    class="absolute right-0 z-10 mt-2 font-normal bg-black divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
                 >
                    <ul class="py-2 text-sm text-white">
       {#each item.dropdown as subItem}
