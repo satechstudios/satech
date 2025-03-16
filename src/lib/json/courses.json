@@ -74,7 +74,7 @@
         "id": 2,
         "image": "/courses/ui-ux.jpg",
         "name": "UI/UX Design Course",
-        "description": "Our UI/UX Design Course is perfect for beginners who want to craft visually stunning user interfaces (UI) and seamless user experiences (UX). You will master tools like Figma, Adobe XD, and Illustrator while developing a deep understanding of user-centered design principles.",
+        "description": "Join the top-rated UI/UX design course in Erode. Learn UI/UX from industry experts with hands-on training, real-time projects, and job assistance. Enroll now!",
         "highlights": [
             {
                 "studentLevel": "Beginner",
@@ -133,16 +133,16 @@
         ],
         "faq": [
             {
-                "question": "Do I need coding knowledge?",
-                "answer": "No coding knowledge is required. This course focuses entirely on design."
+                "question": "Why Choose Our UI/UX Course in Erode?",
+                "answer": "Expert-Led Training, Hands-On Projects, Job-Oriented Curriculum, 100% Placement Assistance"
             },
             {
-                "question": "Does the course help with job placement?",
-                "answer": "We provide guidance and resources for job placements in UI/UX roles."
+                "question": "What You'll Learn in Our UI/UX Course?",
+                "answer": "UX Research & User Psychology, Wireframing & Prototyping, UI Design with Figma & Adobe XD, Usability Testing & Interaction Design."
             },
             {
-                "question": "Can I add projects to my portfolio?",
-                "answer": "Yes, you will work on projects that can be added to your professional portfolio."
+                "question": "Who Can Join Our UI/UX Course?",
+                "answer": "Students & Freshers, Graphic Designers, Developers & Coders, Marketing Professionals."
             }
         ]
     },
@@ -427,7 +427,7 @@
         "id": 7,
         "image": "/courses/AR-VR-.jpg",
         "name": "AR/VR Development Course",
-        "description": "Immerse yourself in the future of technology with our AR/VR Development Course. Learn to create interactive augmented and virtual reality experiences for applications in gaming, education, and beyond.",
+        "description": "Join the top-rated AR/VR development course in Erode and master Augmented & Virtual Reality with hands-on training, real-time projects, and job assistance. Enroll now!",
         "highlights": [
             {
                 "studentLevel": "Beginner",
@@ -477,16 +477,16 @@
         ],
         "faq": [
             {
-                "question": "What are the prerequisites for this course?",
-                "answer": "No prerequisites are required. This course is beginner-friendly."
+                "question": "Why Choose Our AR/VR Course in Erode?",
+                "answer": "Industry-Oriented Curriculum, Hands-On Training with Real-Time Projects, Learn AR/VR Development with Unity & Unreal Engine, 100% placement Assistance."
             },
             {
-                "question": "Do I need AR/VR hardware to join?",
-                "answer": "While not mandatory, having access to AR/VR hardware will enhance your learning experience."
+                "question": "What You'll Learn in Our AR/VR Development Course?",
+                "answer": "Introduction to Augmented Reality(AR) & Virtual Reality(VR), AR/VR Development with Unity & Unreal Engine, 3D Modeling & Asset Creation for AR/VR, Coding for AR/VR using C#,Python & ARKit/ARCore, Developing Immersive AR/VR Applications, Deploying AR/VR Experinces for Mobile & Web."
             },
             {
-                "question": "Can I build AR/VR apps for mobile devices?",
-                "answer": "Yes, the course covers AR/VR development for both mobile and desktop platforms."
+                "question": "Who Can Join Our AR/VR Course?",
+                "answer": "Beginners and Freshers Interested in AR/VR, Game Developers & Designers, UI/UX Designers Exploring AR/VR Interfaces, IT Professionals & Engineers Looking to Upskill, Students Passionate About Metaverse and Immersive Tech."
             }
         ]
     },

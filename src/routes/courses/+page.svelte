@@ -4,7 +4,7 @@
   </script>
 
 <svelte:head>
-  <title>Our Course - SATech Studios</title>
+  <title>Best UI/UX Design Course in Erode |Learn UI/UX Course in erode|Learn UI/UX with Experts</title>
   <meta name="description" content="Discover our range of courses designed to enhance your skills in various domains. Learn from the best with our expert-led programs." />
 </svelte:head>
 
