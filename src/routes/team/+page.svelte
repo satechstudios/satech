@@ -8,7 +8,6 @@
     {
       name: "Marketing",
       members: [
-        { name: "Arulesh P P", role: "Business Development Associate", linkedin: "https://www.linkedin.com/in/aruleshpp2001/" },
       ],
     },
     {
@@ -20,14 +19,12 @@
     {
       name: "3D Animation",
       members: [
-        { name: "Deevith", role: "3D Generalist", linkedin: "https://www.linkedin.com/in/deevith-m-1b0729264/" },
       ],
     },
     {
       name: "Creative Design",
       members: [
         { name: "Giridharan S V", role: "Graphic & UI/UX Designer", linkedin: "https://www.linkedin.com/in/giridharan-s-v-b09a4228b/" },
-        { name: "Sanjay K", role: "Graphic Designer", linkedin: "https://www.linkedin.com/" },
       ],
     },
     
