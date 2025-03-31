@@ -25,7 +25,6 @@
       name: "Creative Design",
       members: [
         { name: "Giridharan S V", role: "Graphic & UI/UX Designer", linkedin: "https://www.linkedin.com/in/giridharan-s-v-b09a4228b/" },
-        { name: "Sanjay K", role: "Graphic Designer", linkedin: "https://www.linkedin.com/" },
       ],
     },
     
