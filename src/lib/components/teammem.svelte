@@ -1,13 +1,13 @@
-<script>
+//<script>
   export let domains = [];
   let activeDomain = null;
 
   const toggleDomain = (index) => {
     activeDomain = activeDomain === index ? null : index;
   };
-</script>
+//</script>
 
-<div class="flex flex-col items-center space-y-6">
+//<div class="flex flex-col items-center space-y-6">
   {#each domains as domain, index}
     <div class="w-full flex flex-col items-center">
       <!-- Domain Button -->
@@ -39,4 +39,4 @@
       {/if}
     </div>
   {/each}
-</div>
+//</div>
