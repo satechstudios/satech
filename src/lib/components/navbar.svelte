@@ -21,7 +21,7 @@
     },
     { name: 'Blog', href: '/blog' },
     { name: 'Contact', href: '/contact' },
-    { name: 'Team', href: '/team' },
+    !{ name: 'Team', href: '/team' },
     { name: 'Service', 
     href: '/contact',
      dropdown: [
