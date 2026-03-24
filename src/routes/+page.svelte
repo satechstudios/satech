@@ -18,13 +18,13 @@
       description: "Embark on a journey to master multiple disciplines seamlessly, with expert-guided courses for well-rounded expertise.",
       href: "/courses",
     },
-    {
+    //{
       image: "/team.jpg",
       alt: "Our dedicated team",
       title: "Team",
       description: "Meet the talented team delivering exceptional results and creating memorable experiences for every project.",
       href: "/team",
-    },
+  //  },
   ];
 </script>
 
