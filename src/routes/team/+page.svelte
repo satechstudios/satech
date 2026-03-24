@@ -1,4 +1,4 @@
-<script>
+//<script>
   let domains = [
     {
       name: "Human Resource",
@@ -112,4 +112,4 @@
 
 <style>
   @import "https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css";
-</style>
+//</style>
