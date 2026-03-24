@@ -1,4 +1,4 @@
-//<script>
+<script>
   let domains = [
     {
       name: "Human Resource",
@@ -13,8 +13,7 @@
     {
       name: "AR/VR & Game Development",
       members: [
-        { name: "Naresh S K", role: "Unity Developer", linkedin: "https://www.linkedin.com/in/naresh-s-k-aaa35724a" },
-      ],
+            ],
     },
     {
       name: "3D Animation",
@@ -24,17 +23,13 @@
     {
       name: "Creative Design",
       members: [
-        { name: "Giridharan S V", role: "Graphic & UI/UX Designer", linkedin: "https://www.linkedin.com/in/giridharan-s-v-b09a4228b/" },
-      ],
+              ],
     },
     
     
     {
       name: "Full Stack Development",
-      members: [
-        { name: "Chidambaram S", role: "Frontend Developer", linkedin: "https://www.linkedin.com/in/chidambarams/" },
-        { name: "Vishnuvardhan S", role: "Frontend Developer", linkedin: "https://www.linkedin.com/in/vishnuvardhan-s-1b0335308/" },
-     
+      members: [    
       ],
     },
     {
