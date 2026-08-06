@@ -18,7 +18,7 @@
       description: "Embark on a journey to master multiple disciplines seamlessly, with expert-guided courses for well-rounded expertise.",
       href: "/courses",
     },
-  ];
+];
 </script>
 
 <svelte:head>
