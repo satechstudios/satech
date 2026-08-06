@@ -1,7 +1,6 @@
 <script>
   import "./styles.css";
   import Carousal from "$lib/components/carousal.svelte";
-  //import Teammem from "$lib/components/teammem.svelte";
 
   let items = [
     {
